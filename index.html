@@ -1,0 +1,3718 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f2eee4">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="拾词">
+<meta name="format-detection" content="telephone=no">
+<title>拾词 · iPhone 每日单词</title>
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAGXElEQVR42u2dS07kMBCGk4ibsJ7ecAvOwGYkJEZixGFQIzUSUp+IDX0DTsCKFYtZBIUe59Fux4+q8mexgOYVl7/+6y/bidvLm+tmsR22u19//zSG2mG7C/tFe3FY7lG7AEcfRNURmeQguEdx/5qc+Mx1YRYOpYLhjF+GLuT/j9kkZBoOdWQMI1T8suVcyXo+JuDQQsbxW1bgBQu/PB8+XDhUkKHODGm5YGf0/4NDOBlKFVvX9R8z8AOHZDIM1E2KujOQ8A2HTDK0S4Xe3vU8tJc31wLJMCYVGjt72O4uiFTx1ndWYMfbz493IRdUIRbCg9CeXFsRMs9fGyISolEeDgRDbFgKw4FgSI5PMTgQDPmBKgMHgqEiYrnhQDAUhS4rHAiGrhh2kNFomzEL3uYoUTlIJUpDmhwOBENvbDvIIMUUgAMytPPRQQZ8ZIUDMmzw0UEGfGSCAzIs8dFBBnwkhwMy7PHRQQZ8JIQDMqzy0UEGfCSBAzJs89ERQVp8OJAN8+LRQQZ8xIQDMirhA89BiwcHslGPeJy3TTCAjP3ma/j899sFg9To2VmYNq0ckzH+kia8naEc58pGj8LV7fPwyuvLHfqhSDy6bGQMX6IfWswH1QptHRxUKHWKRwcZ8JE7rfSus3egGFKb1cpK2Rh7z96Tbh7uCb38yiWtIXVEwileaIqVI6LbeHt8cl5BPOSLB6Us7XxDGrdIGevEWEto0soWlIMmYIYU8TACBxNfZJbcaQXxUK8cyAbiUcaQIh4YUppFODLkFMRDS2YpoxzMnetTjoJWFPEQKB54Dpo8Q4rzAA6aCTjyGw7EQ7jtQDloUtMK4qEAjoJFLHMeYjOLxLTy9viEfpBWfsQD/QAO5kyBg2YGDiG7e8gs0jypaOXAmZJWcKbAgTMFDswHcCAewEGruLWfH+8y71Jx1IJcg3JQ1gIHZS1w4EyBg7LWZtP31MdePBxoOJuh0rRy0nxwNgPK4epHT8zk2Qz7zRf6UZEhnRQPzmYADioX4KByAQ4QAY5UZBxnk95ecDZDU9vCm7/hcOCADAzp7GEMkFG7crCsj3KwrA8c8SoXx7HSaleOY0QgI/JJTdqfZz0JBP6jWX2CkxHlAAXSCuYUODCnwIE5BY5iKy/kF+DAnKaEw+fMe+0WBP0IOInYZrWCFSWtnJ1f0A/gODFPCh/AceIh2iDS+KytmD8xdIEDSpuFs2NrUY45CJAQnuyzJBLLpc1+8zV81JtW6jmL2n+JfwyE+Q2qxwzUuBd3bpbdQYS7cCt9YNycCxksCHfh8jRB7sL1hsPkIgurdGGGA+VgqsO7WqmqZjmZTfq7LB1DarhgGY87dw66EjIgcnX7/Ppy59yIW9W9lqSVJSMyrlaqmlGdSCs1Zxb/gsWYU5kccdKKV4pZoMewn51WDsQjYOZDLyVzY41yxBES57s25AQ4IiPi/+AQ+U9dnk0rZJZ0U+ybh3s5670Lo4xyrJ1XDaBkbr3XqZyL+5sl5UA8UmjJeOJ1+fWkiCyPL8qh9TbdDOJx4XNsNeJh8n7ukyOLcuRe9d1v0spGxCLohOfAeaRok4bUfyyH40TWbHr1GVMvOOAjER9xS1l/5jxHk1XZMs0ZsBRkrN/06ntNONPUfMjxoSHKUdsO06aO7V6kFVqTfCcY4iE8SS0fPXOuMfCtVqhcJBc7w/AvFEEBo0ZasVAGD6/ELYJClAPxEEWGDwph4xWoHJgPaWQsfDf4nRyeVuBDFBlzP7NG4/EctDRwIB6NoSmv+MoBH1bJiJNW4MMkGdE8B3w0Mhbq+p+JNdEQzZDCR3E+4pIRuVqBj4J8RCcjfikLH0X4SEFGEzx9zuS6SQeaYxIM/TBARsIZUvjQTkba6XP4UE1G8rUV+NBLRipDOu5DDwrDqSukOeCghFEayXxL9qQYde+xfMpBilEXutxwkGIURawMHEiIikAVgwMJkR+fwnAgIZLDUh4OJERsNNrPj3cho4KESAtCe3lzLepdWy0i0jp+2O7EPTCuj05ViIjt7LfnkJnyhxlVk5RI7l3Pw48hlWwJjQmJ8O4MJGg6rly7kKi4/mMG3FJWRUmpTki0XLAz+oqPDj1e45VsmLRwPB53IwcAylFspblvcsStnfHmbBnJ0IX8/zHbhOyJk5q01wiT24uCexT3r8k3Q/8AtB3KW41gNjsAAAAASUVORK5CYII=">
+<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAGXElEQVR42u2dS07kMBCGk4ibsJ7ecAvOwGYkJEZixGFQIzUSUp+IDX0DTsCKFYtZBIUe59Fux4+q8mexgOYVl7/+6y/bidvLm+tmsR22u19//zSG2mG7C/tFe3FY7lG7AEcfRNURmeQguEdx/5qc+Mx1YRYOpYLhjF+GLuT/j9kkZBoOdWQMI1T8suVcyXo+JuDQQsbxW1bgBQu/PB8+XDhUkKHODGm5YGf0/4NDOBlKFVvX9R8z8AOHZDIM1E2KujOQ8A2HTDK0S4Xe3vU8tJc31wLJMCYVGjt72O4uiFTx1ndWYMfbz493IRdUIRbCg9CeXFsRMs9fGyISolEeDgRDbFgKw4FgSI5PMTgQDPmBKgMHgqEiYrnhQDAUhS4rHAiGrhh2kNFomzEL3uYoUTlIJUpDmhwOBENvbDvIIMUUgAMytPPRQQZ8ZIUDMmzw0UEGfGSCAzIs8dFBBnwkhwMy7PHRQQZ8JIQDMqzy0UEGfCSBAzJs89ERQVp8OJAN8+LRQQZ8xIQDMirhA89BiwcHslGPeJy3TTCAjP3ma/j899sFg9To2VmYNq0ckzH+kia8naEc58pGj8LV7fPwyuvLHfqhSDy6bGQMX6IfWswH1QptHRxUKHWKRwcZ8JE7rfSus3egGFKb1cpK2Rh7z96Tbh7uCb38yiWtIXVEwileaIqVI6LbeHt8cl5BPOSLB6Us7XxDGrdIGevEWEto0soWlIMmYIYU8TACBxNfZJbcaQXxUK8cyAbiUcaQIh4YUppFODLkFMRDS2YpoxzMnetTjoJWFPEQKB54Dpo8Q4rzAA6aCTjyGw7EQ7jtQDloUtMK4qEAjoJFLHMeYjOLxLTy9viEfpBWfsQD/QAO5kyBg2YGDiG7e8gs0jypaOXAmZJWcKbAgTMFDswHcCAewEGruLWfH+8y71Jx1IJcg3JQ1gIHZS1w4EyBg7LWZtP31MdePBxoOJuh0rRy0nxwNgPK4epHT8zk2Qz7zRf6UZEhnRQPzmYADioX4KByAQ4QAY5UZBxnk95ecDZDU9vCm7/hcOCADAzp7GEMkFG7crCsj3KwrA8c8SoXx7HSaleOY0QgI/JJTdqfZz0JBP6jWX2CkxHlAAXSCuYUODCnwIE5BY5iKy/kF+DAnKaEw+fMe+0WBP0IOInYZrWCFSWtnJ1f0A/gODFPCh/AceIh2iDS+KytmD8xdIEDSpuFs2NrUY45CJAQnuyzJBLLpc1+8zV81JtW6jmL2n+JfwyE+Q2qxwzUuBd3bpbdQYS7cCt9YNycCxksCHfh8jRB7sL1hsPkIgurdGGGA+VgqsO7WqmqZjmZTfq7LB1DarhgGY87dw66EjIgcnX7/Ppy59yIW9W9lqSVJSMyrlaqmlGdSCs1Zxb/gsWYU5kccdKKV4pZoMewn51WDsQjYOZDLyVzY41yxBES57s25AQ4IiPi/+AQ+U9dnk0rZJZ0U+ybh3s5670Lo4xyrJ1XDaBkbr3XqZyL+5sl5UA8UmjJeOJ1+fWkiCyPL8qh9TbdDOJx4XNsNeJh8n7ukyOLcuRe9d1v0spGxCLohOfAeaRok4bUfyyH40TWbHr1GVMvOOAjER9xS1l/5jxHk1XZMs0ZsBRkrN/06ntNONPUfMjxoSHKUdsO06aO7V6kFVqTfCcY4iE8SS0fPXOuMfCtVqhcJBc7w/AvFEEBo0ZasVAGD6/ELYJClAPxEEWGDwph4xWoHJgPaWQsfDf4nRyeVuBDFBlzP7NG4/EctDRwIB6NoSmv+MoBH1bJiJNW4MMkGdE8B3w0Mhbq+p+JNdEQzZDCR3E+4pIRuVqBj4J8RCcjfikLH0X4SEFGEzx9zuS6SQeaYxIM/TBARsIZUvjQTkba6XP4UE1G8rUV+NBLRipDOu5DDwrDqSukOeCghFEayXxL9qQYde+xfMpBilEXutxwkGIURawMHEiIikAVgwMJkR+fwnAgIZLDUh4OJERsNNrPj3cho4KESAtCe3lzLepdWy0i0jp+2O7EPTCuj05ViIjt7LfnkJnyhxlVk5RI7l3Pw48hlWwJjQmJ8O4MJGg6rly7kKi4/mMG3FJWRUmpTki0XLAz+oqPDj1e45VsmLRwPB53IwcAylFspblvcsStnfHmbBnJ0IX8/zHbhOyJk5q01wiT24uCexT3r8k3Q/8AtB3KW41gNjsAAAAASUVORK5CYII=">
+<style>
+  :root {
+    --bg: #f2eee4;
+    --surface: #fbf9f3;
+    --surface-2: #f6f1e6;
+    --ink: #22302b;
+    --ink-2: #53625c;
+    --muted: #7d8982;
+    --line: rgba(34, 48, 43, 0.12);
+    --line-strong: rgba(34, 48, 43, 0.2);
+    --green: #235c4a;
+    --green-2: #2f725d;
+    --green-soft: #e1ebe4;
+    --gold: #b47b38;
+    --gold-2: #c99048;
+    --gold-soft: #f1e5cf;
+    --red: #a44f42;
+    --red-soft: #f3e4df;
+    --shadow: 0 18px 44px rgba(39, 45, 38, 0.08);
+    --shadow-strong: 0 26px 70px rgba(20, 34, 28, 0.24);
+    --safe-top: env(safe-area-inset-top, 0px);
+    --safe-bottom: env(safe-area-inset-bottom, 0px);
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    --serif-cn: "Songti SC", "STSong", "Noto Serif CJK SC", "SimSun", serif;
+    --sans: -apple-system, BlinkMacSystemFont, "SF Pro SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    --mono: "SFMono-Regular", "Cascadia Code", "Consolas", "Liberation Mono", monospace;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    min-height: 100dvh;
+    overflow: hidden;
+    color: var(--ink);
+    background:
+      radial-gradient(circle at 15% 0%, rgba(180, 123, 56, 0.08), transparent 34%),
+      #e8e1d3;
+    font-family: var(--sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  button, input, textarea { font: inherit; }
+  button {
+    color: inherit;
+    cursor: pointer;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  button:disabled { cursor: not-allowed; opacity: 0.45; }
+  [hidden] { display: none !important; }
+
+  ::selection { background: rgba(180, 123, 56, 0.24); }
+  :focus-visible { outline: 3px solid rgba(180, 123, 56, 0.46); outline-offset: 2px; }
+
+  .app {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 520px;
+    height: 100vh;
+    height: 100dvh;
+    margin: 0 auto;
+    overflow: hidden;
+    background:
+      radial-gradient(circle at 100% 0%, rgba(35, 92, 74, 0.05), transparent 28%),
+      var(--bg);
+    box-shadow: 0 0 70px rgba(34, 44, 38, 0.08);
+  }
+
+  /* ---------- Top bar ---------- */
+  .appbar {
+    position: relative;
+    z-index: 20;
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: calc(10px + var(--safe-top)) 16px 10px;
+    background: rgba(242, 238, 228, 0.9);
+    -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px);
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    min-width: 0;
+  }
+
+  .brand__mark {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 36px;
+    height: 36px;
+    flex: 0 0 36px;
+    border-radius: 12px;
+    color: #f8f2e5;
+    background:
+      radial-gradient(circle at 70% 20%, rgba(201, 144, 72, 0.44), transparent 42%),
+      linear-gradient(145deg, #2b6653, #1d4337);
+    font-family: var(--serif-cn);
+    font-size: 1.05rem;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.14), 0 6px 14px rgba(27, 61, 50, 0.16);
+  }
+
+  .brand__mark::after {
+    content: "";
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: var(--gold-2);
+  }
+
+  .brand__copy {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+  }
+
+  .brand__name {
+    font-family: var(--serif-cn);
+    font-size: 1.08rem;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    line-height: 1.05;
+  }
+
+  .brand__date {
+    overflow: hidden;
+    color: var(--muted);
+    font-size: 0.62rem;
+    letter-spacing: 0.01em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .quick-import {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    min-height: 38px;
+    padding: 8px 13px;
+    border: 1px solid rgba(35, 92, 74, 0.14);
+    border-radius: 999px;
+    color: var(--green);
+    background: var(--green-soft);
+    font-size: 0.74rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .quick-import svg { width: 15px; height: 15px; }
+  .quick-import:active { transform: scale(0.98); }
+
+  /* ---------- Scrollable main ---------- */
+  .main {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    padding: 5px 16px 26px;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .main::-webkit-scrollbar { display: none; }
+  .main { scrollbar-width: none; }
+
+  /* ---------- Bottom navigation ---------- */
+  .tabbar {
+    position: relative;
+    z-index: 25;
+    display: grid;
+    flex: 0 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    padding: 7px 20px calc(7px + var(--safe-bottom));
+    border-top: 1px solid rgba(34, 48, 43, 0.1);
+    background: rgba(251, 249, 243, 0.94);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+  }
+
+  .tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    min-height: 48px;
+    padding: 4px 2px;
+    border: 0;
+    border-radius: 14px;
+    color: var(--muted);
+    background: transparent;
+    font-size: 0.58rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+
+  .tab__icon {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 26px;
+    border-radius: 999px;
+    transition: background-color 160ms ease, color 160ms ease;
+  }
+
+  .tab svg { width: 20px; height: 20px; }
+  .tab.is-active { color: var(--green); }
+  .tab.is-active .tab__icon { background: var(--green-soft); }
+
+  /* ---------- Common ---------- */
+  .page-intro {
+    padding: 5px 2px 15px;
+  }
+
+  .overline {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    color: var(--gold);
+    font-family: var(--serif);
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  .overline::before {
+    content: "";
+    width: 17px;
+    height: 1px;
+    background: currentColor;
+    opacity: 0.7;
+  }
+
+  .page-intro h1 {
+    margin: 8px 0 0;
+    font-family: var(--serif-cn);
+    font-size: 1.62rem;
+    font-weight: 700;
+    line-height: 1.22;
+    letter-spacing: -0.02em;
+  }
+
+  .page-intro p:not(.overline) {
+    margin: 7px 0 0;
+    color: var(--muted);
+    font-size: 0.76rem;
+    line-height: 1.6;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    min-height: 46px;
+    padding: 11px 16px;
+    border: 1px solid transparent;
+    border-radius: 14px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: transform 150ms ease, background-color 150ms ease, border-color 150ms ease, opacity 150ms ease;
+  }
+
+  .btn:active { transform: scale(0.985); }
+  .btn-primary { color: #fbf7ed; background: var(--green); box-shadow: 0 8px 18px rgba(35, 92, 74, 0.17); }
+  .btn-primary:active { background: var(--green-2); }
+  .btn-secondary { color: var(--ink); border-color: var(--line-strong); background: rgba(255, 255, 255, 0.4); }
+  .btn-ghost { color: var(--ink-2); border-color: transparent; background: transparent; }
+  .btn-ghost:active { background: rgba(34, 48, 43, 0.055); }
+  .btn-cream { color: #20342c; background: #f2e5cd; box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12); }
+  .btn-cream:active { background: #fbf2e1; }
+  .btn-outline-light { color: #f8f3e7; border-color: rgba(248, 243, 231, 0.26); background: rgba(255, 255, 255, 0.055); }
+  .btn-danger { color: var(--red); border-color: rgba(164, 79, 66, 0.2); background: var(--red-soft); }
+  .btn-block { width: 100%; }
+  .btn-sm { min-height: 38px; padding: 8px 12px; font-size: 0.72rem; border-radius: 12px; }
+
+  .icon-btn {
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    flex: 0 0 34px;
+    padding: 0;
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    color: var(--ink-2);
+    background: transparent;
+    font-size: 1.15rem;
+    line-height: 1;
+  }
+
+  .icon-btn:active { background: rgba(34, 48, 43, 0.06); }
+
+  /* ---------- Today ---------- */
+  .task-card {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 27px;
+    color: #f8f3e7;
+    background:
+      radial-gradient(circle at 90% 12%, rgba(201, 144, 72, 0.2), transparent 28%),
+      radial-gradient(circle at 6% 100%, rgba(112, 164, 137, 0.15), transparent 36%),
+      linear-gradient(138deg, #2b5a4a 0%, #204537 48%, #182f29 100%);
+    box-shadow: 0 22px 48px rgba(24, 47, 41, 0.18);
+    isolation: isolate;
+  }
+
+  .task-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    opacity: 0.2;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.055) 1px, transparent 1px);
+    background-size: 38px 38px;
+    -webkit-mask-image: linear-gradient(90deg, transparent 10%, #000 100%);
+    mask-image: linear-gradient(90deg, transparent 10%, #000 100%);
+  }
+
+  .task-card__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .task-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 9px;
+    border: 1px solid rgba(248, 243, 231, 0.14);
+    border-radius: 999px;
+    color: rgba(248, 243, 231, 0.72);
+    background: rgba(255, 255, 255, 0.055);
+    font-size: 0.6rem;
+    font-weight: 650;
+    letter-spacing: 0.05em;
+  }
+
+  .task-pill::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--gold-2);
+  }
+
+  .streak {
+    color: rgba(248, 243, 231, 0.45);
+    font-size: 0.6rem;
+    white-space: nowrap;
+  }
+
+  .task-card h1 {
+    max-width: 300px;
+    margin: 15px 0 9px;
+    font-family: var(--serif-cn);
+    font-size: clamp(1.82rem, 7.2vw, 2.42rem);
+    font-weight: 600;
+    line-height: 1.15;
+    letter-spacing: -0.025em;
+  }
+
+  .task-card h1 em {
+    color: #e7bf86;
+    font-family: var(--serif);
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+  }
+
+  .task-card__sub {
+    max-width: 300px;
+    margin: 0;
+    color: rgba(248, 243, 231, 0.62);
+    font-size: 0.72rem;
+    line-height: 1.65;
+  }
+
+  .task-card__actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 18px;
+  }
+
+  .task-card__actions .btn {
+    flex: 1;
+    min-width: 0;
+    min-height: 43px;
+    padding: 9px 10px;
+    border-radius: 13px;
+    font-size: 0.76rem;
+  }
+
+  .task-card__top,
+  .task-card h1,
+  .task-card__sub,
+  .task-card__actions {
+    position: relative;
+    z-index: 2;
+  }
+
+  .task-card__deco {
+    position: absolute;
+    right: -18px;
+    bottom: -14px;
+    width: 138px;
+    height: 118px;
+    z-index: 1;
+    opacity: 0.45;
+    pointer-events: none;
+  }
+
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-top: 10px;
+  }
+
+  .stat {
+    padding: 13px 11px 12px;
+    border: 1px solid var(--line);
+    border-radius: 17px;
+    background: rgba(251, 249, 243, 0.76);
+    box-shadow: 0 7px 18px rgba(39, 45, 38, 0.035);
+  }
+
+  .stat span {
+    display: block;
+    color: var(--muted);
+    font-size: 0.6rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .stat strong {
+    display: block;
+    margin-top: 5px;
+    font-family: var(--serif);
+    font-size: 1.42rem;
+    font-weight: 600;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .stat small {
+    margin-left: 2px;
+    color: var(--muted);
+    font-family: var(--sans);
+    font-size: 0.54rem;
+    font-weight: 500;
+  }
+
+  .section { margin-top: 21px; }
+
+  .section-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 10px;
+  }
+
+  .section-head h2 {
+    margin: 0;
+    font-family: var(--serif-cn);
+    font-size: 1.02rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+  }
+
+  .section-head .aside {
+    color: var(--muted);
+    font-size: 0.62rem;
+  }
+
+  .section-link {
+    padding: 0;
+    border: 0;
+    color: var(--green);
+    background: transparent;
+    font-size: 0.66rem;
+    font-weight: 700;
+  }
+
+  .plan-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+
+  .plan-chip {
+    padding: 11px 8px;
+    border: 1px solid var(--line);
+    border-radius: 15px;
+    background: rgba(251, 249, 243, 0.66);
+    text-align: center;
+  }
+
+  .plan-chip span {
+    display: block;
+    color: var(--muted);
+    font-size: 0.58rem;
+  }
+
+  .plan-chip strong {
+    display: block;
+    margin-top: 4px;
+    font-family: var(--serif);
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .plan-chip.is-quiet strong { color: var(--muted); }
+
+  .day-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .day-row {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    color: var(--ink);
+    background: rgba(251, 249, 243, 0.78);
+    text-align: left;
+    box-shadow: 0 6px 16px rgba(39, 45, 38, 0.03);
+  }
+
+  .day-row:active { background: var(--surface); }
+
+  .day-num {
+    display: grid;
+    place-items: center;
+    width: 42px;
+    height: 42px;
+    flex: 0 0 42px;
+    border-radius: 13px;
+    color: var(--green);
+    background: var(--green-soft);
+    font-family: var(--serif);
+    font-size: 1.08rem;
+    font-weight: 600;
+  }
+
+  .day-copy { flex: 1; min-width: 0; }
+
+  .day-copy h3 {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin: 0;
+    font-family: var(--serif-cn);
+    font-size: 0.88rem;
+    font-weight: 700;
+  }
+
+  .day-copy p {
+    overflow: hidden;
+    margin: 3px 0 0;
+    color: var(--muted);
+    font-size: 0.61rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .day-progress {
+    display: block;
+    height: 3px;
+    margin-top: 6px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: rgba(34, 48, 43, 0.07);
+  }
+
+  .day-progress i {
+    display: block;
+    height: 100%;
+    border-radius: inherit;
+    background: var(--green);
+  }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 7px;
+    border-radius: 999px;
+    font-size: 0.56rem;
+    font-weight: 650;
+    white-space: nowrap;
+  }
+
+  .badge::before { content: ""; width: 4px; height: 4px; border-radius: 50%; background: currentColor; }
+  .badge-due { color: var(--red); background: var(--red-soft); }
+  .badge-new { color: var(--gold); background: var(--gold-soft); }
+  .badge-ok { color: var(--green); background: var(--green-soft); }
+  .badge-idle { color: var(--ink-2); background: rgba(34, 48, 43, 0.055); }
+
+  /* ---------- Empty ---------- */
+  .empty-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 22px 20px 24px;
+    border: 1px solid var(--line);
+    border-radius: 27px;
+    background:
+      radial-gradient(circle at 100% 0%, rgba(180, 123, 56, 0.09), transparent 34%),
+      rgba(251, 249, 243, 0.86);
+    box-shadow: var(--shadow);
+  }
+
+  .empty-art {
+    display: grid;
+    place-items: center;
+    height: 124px;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    background:
+      radial-gradient(circle at 50% 20%, rgba(35, 92, 74, 0.11), transparent 55%),
+      var(--surface-2);
+  }
+
+  .empty-art svg { width: 190px; height: 105px; }
+
+  .empty-hero h1 {
+    margin: 11px 0 9px;
+    font-family: var(--serif-cn);
+    font-size: 1.85rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+  }
+
+  .empty-hero > p:not(.overline) {
+    margin: 0;
+    color: var(--ink-2);
+    font-size: 0.77rem;
+    line-height: 1.7;
+  }
+
+  .empty-hero .btn { width: 100%; margin-top: 9px; }
+  .empty-hero .btn:first-of-type { margin-top: 17px; }
+
+  .mini-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 18px;
+    padding-top: 14px;
+    border-top: 1px solid var(--line);
+  }
+
+  .mini-steps div {
+    display: flex;
+    gap: 9px;
+    color: var(--muted);
+    font-size: 0.66rem;
+    line-height: 1.5;
+  }
+
+  .mini-steps b {
+    color: var(--gold);
+    font-family: var(--serif);
+    font-weight: 600;
+  }
+
+  /* ---------- Words page ---------- */
+  .summary-strip {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin: 0 0 15px;
+  }
+
+  .summary-strip div {
+    padding: 11px 9px;
+    border: 1px solid var(--line);
+    border-radius: 15px;
+    background: rgba(251, 249, 243, 0.7);
+    text-align: center;
+  }
+
+  .summary-strip strong {
+    display: block;
+    font-family: var(--serif);
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .summary-strip span {
+    display: block;
+    margin-top: 3px;
+    color: var(--muted);
+    font-size: 0.56rem;
+  }
+
+  .empty-note {
+    padding: 28px 20px;
+    border: 1px dashed var(--line-strong);
+    border-radius: 22px;
+    color: var(--muted);
+    background: rgba(251, 249, 243, 0.5);
+    font-size: 0.76rem;
+    line-height: 1.7;
+    text-align: center;
+  }
+
+  .empty-note strong { display: block; margin-bottom: 5px; color: var(--ink-2); }
+
+  /* ---------- Data page ---------- */
+  .card {
+    margin-bottom: 11px;
+    padding: 17px;
+    border: 1px solid var(--line);
+    border-radius: 21px;
+    background: rgba(251, 249, 243, 0.82);
+    box-shadow: 0 7px 18px rgba(39, 45, 38, 0.03);
+  }
+
+  .import-card {
+    padding: 19px;
+    background:
+      radial-gradient(circle at 100% 0%, rgba(180, 123, 56, 0.1), transparent 32%),
+      linear-gradient(140deg, #fbf8ef, #f6f0e4);
+  }
+
+  .import-card__top {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .import-card__icon {
+    display: grid;
+    place-items: center;
+    width: 43px;
+    height: 43px;
+    flex: 0 0 43px;
+    border-radius: 14px;
+    color: var(--green);
+    background: var(--green-soft);
+  }
+
+  .import-card__icon svg { width: 21px; height: 21px; }
+  .import-card h2 { margin: 4px 0 0; font-family: var(--serif-cn); font-size: 1.08rem; font-weight: 700; }
+  .import-card__top p { margin: 4px 0 0; color: var(--muted); font-size: 0.64rem; line-height: 1.5; }
+  .import-card > p { margin: 13px 0 0; color: var(--ink-2); font-size: 0.72rem; line-height: 1.65; }
+  .import-card .btn { margin-top: 9px; }
+  .import-card .btn:first-of-type { margin-top: 15px; }
+
+  .card-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+
+  .card-head h2 { margin: 0; font-family: var(--serif-cn); font-size: 0.98rem; font-weight: 700; }
+  .card-head span { color: var(--muted); font-size: 0.6rem; }
+
+  .data-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7px;
+    margin-bottom: 12px;
+  }
+
+  .data-grid div {
+    padding: 10px 8px;
+    border-radius: 13px;
+    background: var(--surface-2);
+    text-align: center;
+  }
+
+  .data-grid strong { display: block; font-family: var(--serif); font-size: 1.1rem; font-weight: 600; line-height: 1.1; }
+  .data-grid span { display: block; margin-top: 3px; color: var(--muted); font-size: 0.54rem; }
+
+  .action-list {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 12px;
+  }
+
+  .action-list .btn { width: 100%; min-height: 42px; font-size: 0.75rem; }
+
+  .storage-warning {
+    margin-bottom: 11px;
+    padding: 12px 14px;
+    border: 1px solid rgba(164, 79, 66, 0.2);
+    border-radius: 15px;
+    color: #7d443a;
+    background: var(--red-soft);
+    font-size: 0.66rem;
+    line-height: 1.6;
+  }
+
+  .help-card {
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .help-card details {
+    border-bottom: 1px solid var(--line);
+  }
+
+  .help-card details:last-child { border-bottom: 0; }
+
+  .help-card summary {
+    padding: 14px 16px;
+    color: var(--ink-2);
+    font-size: 0.72rem;
+    font-weight: 650;
+    list-style: none;
+  }
+
+  .help-card summary::-webkit-details-marker { display: none; }
+  .help-card summary::after { content: "＋"; float: right; color: var(--muted); font-weight: 400; }
+  .help-card details[open] summary::after { content: "−"; }
+
+  .help-card__body {
+    padding: 0 16px 16px;
+    color: var(--muted);
+    font-size: 0.67rem;
+    line-height: 1.7;
+  }
+
+  .help-card__body p { margin: 0 0 8px; }
+  .help-card__body p:last-child { margin-bottom: 0; }
+  .help-card__body ol { margin: 0; padding-left: 18px; }
+  .help-card__body li + li { margin-top: 4px; }
+  .help-card__body strong { color: var(--ink-2); }
+
+  pre {
+    overflow-x: auto;
+    margin: 8px 0 9px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #4d5c55;
+    background: var(--surface-2);
+    font-family: var(--mono);
+    font-size: 0.58rem;
+    line-height: 1.55;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+
+  .footer-note {
+    padding: 10px 2px 0;
+    color: var(--muted);
+    font-size: 0.56rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  /* ---------- Sheet ---------- */
+  .sheet-layer {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .sheet-backdrop {
+    position: absolute;
+    inset: 0;
+    border: 0;
+    background: rgba(17, 30, 24, 0.5);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+    animation: fade-in 180ms ease both;
+  }
+
+  .sheet {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: min(560px, 100%);
+    max-height: 92vh;
+    max-height: 92dvh;
+    padding-bottom: var(--safe-bottom);
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 0;
+    border-radius: 27px 27px 0 0;
+    background: var(--surface);
+    box-shadow: 0 -22px 60px rgba(17, 30, 24, 0.26);
+    animation: sheet-up 280ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .sheet-grip {
+    width: 36px;
+    height: 4px;
+    flex: 0 0 4px;
+    margin: 7px auto 0;
+    border-radius: 999px;
+    background: rgba(34, 48, 43, 0.15);
+  }
+
+  #sheetContent {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    max-height: calc(92vh - 11px - var(--safe-bottom));
+    max-height: calc(92dvh - 11px - var(--safe-bottom));
+  }
+
+  .sheet-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 13px 18px 12px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .sheet-head h2 {
+    margin: 6px 0 0;
+    font-family: var(--serif-cn);
+    font-size: 1.36rem;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+
+  .sheet-head p:not(.overline) { margin: 5px 0 0; color: var(--muted); font-size: 0.65rem; line-height: 1.5; }
+
+  .sheet-body {
+    min-height: 0;
+    padding: 16px 18px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .sheet-body::-webkit-scrollbar { display: none; }
+  .sheet-body { scrollbar-width: none; }
+
+  .sheet-foot {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 18px 15px;
+    border-top: 1px solid var(--line);
+    background: rgba(251, 249, 243, 0.95);
+  }
+
+  .sheet-foot .spacer { flex: 1; }
+  .sheet-foot .btn { flex: 1; }
+  .sheet-foot .btn-ghost { flex: 0 0 auto; }
+
+  /* ---------- Import sheet ---------- */
+  .file-card {
+    padding: 20px 16px;
+    border: 1.5px dashed rgba(35, 92, 74, 0.24);
+    border-radius: 20px;
+    background:
+      radial-gradient(circle at 50% 0%, rgba(35, 92, 74, 0.055), transparent 58%),
+      rgba(255, 255, 255, 0.32);
+    text-align: center;
+  }
+
+  .file-card__icon {
+    display: grid;
+    place-items: center;
+    width: 52px;
+    height: 52px;
+    margin: 0 auto 10px;
+    border-radius: 17px;
+    color: var(--green);
+    background: var(--green-soft);
+  }
+
+  .file-card__icon svg { width: 25px; height: 25px; }
+  .file-card h3 { margin: 0; font-family: var(--serif-cn); font-size: 1rem; font-weight: 700; }
+  .file-card p { margin: 6px auto 0; max-width: 300px; color: var(--muted); font-size: 0.66rem; line-height: 1.6; }
+  .file-card .btn { width: 100%; margin-top: 14px; }
+
+  .or-line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 13px 0;
+    color: var(--muted);
+    font-size: 0.58rem;
+  }
+
+  .or-line::before,
+  .or-line::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+
+  .note-box {
+    margin-top: 12px;
+    padding: 10px 12px;
+    border-radius: 12px;
+    color: var(--muted);
+    background: var(--surface-2);
+    font-size: 0.62rem;
+    line-height: 1.6;
+  }
+
+  .note-box strong { color: var(--ink-2); }
+
+  .alert {
+    margin-bottom: 11px;
+    padding: 11px 13px;
+    border: 1px solid rgba(164, 79, 66, 0.2);
+    border-radius: 12px;
+    color: #7d443a;
+    background: var(--red-soft);
+    font-size: 0.67rem;
+    line-height: 1.6;
+  }
+
+  .loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 32px 16px;
+    color: var(--muted);
+    font-size: 0.71rem;
+  }
+
+  .spinner {
+    width: 28px;
+    height: 28px;
+    border: 2px solid rgba(35, 92, 74, 0.14);
+    border-top-color: var(--green);
+    border-radius: 50%;
+    animation: spin 700ms linear infinite;
+  }
+
+  .import-summary {
+    padding: 16px;
+    border: 1px solid rgba(35, 92, 74, 0.14);
+    border-radius: 18px;
+    background: linear-gradient(135deg, #eaf1eb, #f4f2e7);
+  }
+
+  .import-summary__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .import-summary h3 {
+    margin: 0;
+    font-family: var(--serif-cn);
+    font-size: 1.24rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .import-summary h3 em {
+    color: var(--green);
+    font-family: var(--serif);
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .import-summary p { margin: 5px 0 0; color: var(--ink-2); font-size: 0.65rem; line-height: 1.55; }
+
+  .import-stats {
+    display: flex;
+    gap: 6px;
+    margin-top: 12px;
+  }
+
+  .import-stat {
+    flex: 1;
+    padding: 8px 6px;
+    border-radius: 11px;
+    background: rgba(255, 255, 255, 0.45);
+    text-align: center;
+  }
+
+  .import-stat strong { display: block; font-family: var(--serif); font-size: 1.08rem; font-weight: 600; line-height: 1.1; }
+  .import-stat span { display: block; margin-top: 2px; color: var(--muted); font-size: 0.53rem; }
+
+  .changed-days {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 13px;
+  }
+
+  .changed-day {
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.36);
+  }
+
+  .changed-day__head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 11px;
+    border-bottom: 1px solid var(--line);
+    background: rgba(246, 241, 230, 0.7);
+  }
+
+  .changed-day__head strong { font-family: var(--serif-cn); font-size: 0.76rem; }
+  .changed-day__head span { overflow: hidden; color: var(--muted); font-size: 0.58rem; text-overflow: ellipsis; white-space: nowrap; }
+  .changed-day__head em { margin-left: auto; color: var(--green); font-size: 0.58rem; font-style: normal; white-space: nowrap; }
+
+  .changed-words {
+    margin: 0;
+    padding: 6px 11px;
+    list-style: none;
+  }
+
+  .changed-words li {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(34, 48, 43, 0.055);
+    font-size: 0.66rem;
+    line-height: 1.5;
+  }
+
+  .changed-words li:last-child { border-bottom: 0; }
+  .changed-words b { font-family: var(--serif); font-size: 0.76rem; font-weight: 600; }
+  .changed-words small { overflow: hidden; color: var(--muted); text-align: right; text-overflow: ellipsis; white-space: nowrap; }
+
+  .warnings {
+    margin: 11px 0 0;
+    padding: 10px 12px 10px 27px;
+    border-radius: 11px;
+    color: #81582c;
+    background: rgba(241, 229, 207, 0.64);
+    font-size: 0.61rem;
+    line-height: 1.6;
+  }
+
+  .warnings li + li { margin-top: 2px; }
+
+  .paste-area {
+    width: 100%;
+    min-height: 180px;
+    resize: vertical;
+    padding: 12px;
+    border: 1px solid var(--line-strong);
+    border-radius: 14px;
+    color: var(--ink);
+    background: var(--surface-2);
+    font-family: var(--mono);
+    font-size: 16px;
+    line-height: 1.55;
+    caret-color: var(--green);
+  }
+
+  .paste-area:focus { outline: none; border-color: rgba(35, 92, 74, 0.5); box-shadow: 0 0 0 3px rgba(35, 92, 74, 0.08); }
+
+  .day-detail-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    margin-bottom: 13px;
+  }
+
+  .day-detail-stat {
+    padding: 10px 6px;
+    border-radius: 12px;
+    background: var(--surface-2);
+    text-align: center;
+  }
+
+  .day-detail-stat strong { display: block; font-family: var(--serif); font-size: 1.08rem; font-weight: 600; line-height: 1.1; }
+  .day-detail-stat span { display: block; margin-top: 3px; color: var(--muted); font-size: 0.52rem; }
+
+  .detail-actions { display: flex; flex-direction: column; gap: 7px; margin-bottom: 14px; }
+  .detail-actions .btn { width: 100%; }
+
+  .word-scroll {
+    overflow-y: auto;
+    max-height: 38vh;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    overscroll-behavior: contain;
+  }
+
+  .word-row {
+    padding: 10px 11px;
+    border-bottom: 1px solid rgba(34, 48, 43, 0.07);
+  }
+
+  .word-row:last-child { border-bottom: 0; }
+
+  .word-row__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .word-row__word { overflow-wrap: anywhere; font-family: var(--serif); font-size: 0.86rem; font-weight: 600; }
+  .word-row__meaning { margin: 3px 0 0; color: var(--ink-2); font-size: 0.66rem; line-height: 1.5; overflow-wrap: anywhere; }
+
+  .stage-tag {
+    flex: 0 0 auto;
+    padding: 3px 6px;
+    border-radius: 999px;
+    color: var(--ink-2);
+    background: rgba(34, 48, 43, 0.055);
+    font-size: 0.52rem;
+    font-weight: 650;
+    white-space: nowrap;
+  }
+
+  .stage-tag.is-new { color: var(--gold); background: var(--gold-soft); }
+  .stage-tag.is-due { color: var(--red); background: var(--red-soft); }
+  .stage-tag.is-mastered { color: var(--green); background: var(--green-soft); }
+
+  .word-row__meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 4px;
+    color: var(--muted);
+    font-size: 0.55rem;
+  }
+
+  /* ---------- Study ---------- */
+  .study {
+    position: fixed;
+    inset: 0;
+    z-index: 120;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    color: #f6f1e5;
+    background:
+      radial-gradient(circle at 12% 0%, rgba(180, 123, 56, 0.16), transparent 30%),
+      radial-gradient(circle at 90% 100%, rgba(71, 130, 108, 0.16), transparent 34%),
+      linear-gradient(145deg, #1e3d32, #142923 55%, #0f211b);
+  }
+
+  .study::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.18;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 45px 45px;
+    -webkit-mask-image: radial-gradient(circle at center, #000, transparent 78%);
+    mask-image: radial-gradient(circle at center, #000, transparent 78%);
+  }
+
+  .study-shell {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: min(560px, 100%);
+    height: 100vh;
+    height: 100dvh;
+  }
+
+  .study-top {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 8px;
+    padding: calc(10px + var(--safe-top)) 15px 0;
+    min-height: 44px;
+  }
+
+  .study-exit {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 5px 8px 0;
+    border: 0;
+    color: rgba(246, 241, 229, 0.58);
+    background: transparent;
+    font-size: 0.68rem;
+  }
+
+  .study-meta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin: 0 auto;
+    color: rgba(246, 241, 229, 0.58);
+    font-size: 0.62rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .study-meta .sep { width: 3px; height: 3px; border-radius: 50%; background: currentColor; opacity: 0.55; }
+
+  .study-count {
+    min-width: 51px;
+    color: rgba(246, 241, 229, 0.68);
+    font-family: var(--serif);
+    font-size: 0.72rem;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .study-progress {
+    flex: 0 0 2px;
+    height: 2px;
+    margin: 12px 15px 0;
+    overflow: hidden;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .study-progress span {
+    display: block;
+    width: 0;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #c59350, #ead3ae);
+    transition: width 300ms ease;
+  }
+
+  #studyStage:focus { outline: none; }
+
+  .study-body {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .study-body::-webkit-scrollbar { display: none; }
+  .study-body { scrollbar-width: none; }
+
+  .study-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+    padding: 16px 14px calc(14px + var(--safe-bottom));
+  }
+
+  .flashcard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 318px;
+    padding: 21px 18px;
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    border-radius: 24px;
+    color: var(--ink);
+    background:
+      radial-gradient(circle at 100% 0%, rgba(180, 123, 56, 0.12), transparent 34%),
+      linear-gradient(140deg, #fbf8ef, #f4eee0);
+    box-shadow: 0 26px 60px rgba(0, 0, 0, 0.24);
+  }
+
+  .flashcard.card-enter { animation: card-in 280ms cubic-bezier(0.22, 1, 0.36, 1) both; }
+
+  .flashcard__meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 8px;
+    border-radius: 999px;
+    color: var(--green);
+    background: rgba(35, 92, 74, 0.09);
+    font-size: 0.56rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+  }
+
+  .pill::before { content: ""; width: 4px; height: 4px; border-radius: 50%; background: currentColor; }
+  .pill.is-retry { color: var(--gold); background: rgba(180, 123, 56, 0.11); }
+
+  .card-index { color: var(--muted); font-family: var(--serif); font-size: 0.6rem; }
+
+  .word-wrap {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0;
+  }
+
+  .study-word {
+    max-width: 100%;
+    margin: 0;
+    overflow-wrap: anywhere;
+    font-family: var(--serif);
+    font-size: clamp(2.35rem, 11.5vw, 3.55rem);
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.035em;
+    text-align: center;
+  }
+
+  .reveal-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    align-self: center;
+    min-height: 42px;
+    padding: 9px 17px;
+    border: 1px dashed rgba(34, 48, 43, 0.27);
+    border-radius: 999px;
+    color: var(--ink-2);
+    background: rgba(255, 255, 255, 0.3);
+    font-size: 0.72rem;
+    font-weight: 650;
+  }
+
+  .reveal-btn:active { background: rgba(255, 255, 255, 0.65); }
+
+  .kbd {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24px;
+    height: 20px;
+    padding: 0 5px;
+    border: 1px solid rgba(34, 48, 43, 0.15);
+    border-radius: 5px;
+    color: var(--muted);
+    background: rgba(255, 255, 255, 0.45);
+    font-family: var(--sans);
+    font-size: 0.55rem;
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  .meaning-box {
+    padding-top: 15px;
+    border-top: 1px solid rgba(34, 48, 43, 0.12);
+    animation: fade-in 220ms ease both;
+  }
+
+  .meaning-label { margin: 0 0 5px; color: var(--muted); font-size: 0.54rem; font-weight: 700; letter-spacing: 0.1em; }
+  .meaning-text { margin: 0; color: var(--ink); font-size: 0.94rem; line-height: 1.75; overflow-wrap: anywhere; }
+
+  .answer-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    width: 100%;
+    margin-top: 11px;
+    animation: rise-in 220ms ease both;
+  }
+
+  .answer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 62px;
+    padding: 9px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 15px;
+    color: #f6f1e5;
+    background: rgba(255, 255, 255, 0.07);
+    text-align: left;
+  }
+
+  .answer:active { transform: scale(0.99); }
+  .answer__icon {
+    display: grid;
+    place-items: center;
+    width: 30px;
+    height: 30px;
+    flex: 0 0 30px;
+    border-radius: 50%;
+    font-family: var(--serif);
+    font-size: 1.1rem;
+    line-height: 1;
+  }
+
+  .answer__copy { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .answer__copy strong { font-size: 0.78rem; font-weight: 700; }
+  .answer__copy small { color: rgba(246, 241, 229, 0.46); font-size: 0.55rem; }
+  .answer.forgot .answer__icon { color: #e4b8ad; background: rgba(164, 79, 66, 0.28); }
+  .answer.remember .answer__icon { color: #c7e3d5; background: rgba(71, 130, 108, 0.3); }
+  .answer.remember { border-color: rgba(124, 183, 157, 0.26); background: rgba(62, 130, 105, 0.16); }
+
+  .study-hint {
+    min-height: 18px;
+    margin: 11px 0 0;
+    color: rgba(246, 241, 229, 0.52);
+    font-size: 0.6rem;
+    line-height: 1.55;
+    text-align: center;
+  }
+
+  .study-summary {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 0;
+    padding: 18px 14px calc(22px + var(--safe-bottom));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .summary-card {
+    width: 100%;
+    margin: auto 0;
+    padding: 24px 18px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 24px;
+    color: var(--ink);
+    background:
+      radial-gradient(circle at 100% 0%, rgba(180, 123, 56, 0.13), transparent 35%),
+      linear-gradient(140deg, #fbf8ef, #f3eddf);
+    box-shadow: 0 26px 60px rgba(0, 0, 0, 0.24);
+    text-align: center;
+    animation: card-in 280ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .summary-card .overline { justify-content: center; color: var(--gold); text-transform: none; letter-spacing: 0.08em; }
+  .summary-card .overline::after { content: ""; width: 17px; height: 1px; background: currentColor; opacity: 0.7; }
+  .summary-card h2 { margin: 12px 0 17px; font-family: var(--serif-cn); font-size: 1.72rem; font-weight: 700; line-height: 1.2; letter-spacing: -0.02em; }
+
+  .summary-score { display: flex; flex-direction: column; align-items: center; gap: 11px; margin-bottom: 16px; }
+  .summary-ring {
+    --pct: 0;
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 96px;
+    height: 96px;
+    flex: 0 0 96px;
+    border-radius: 50%;
+    background: conic-gradient(var(--green) calc(var(--pct) * 1%), rgba(34, 48, 43, 0.09) 0);
+  }
+
+  .summary-ring::before { content: ""; position: absolute; inset: 8px; border-radius: 50%; background: #f8f3e8; }
+  .summary-ring__inner { position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; }
+  .summary-ring__inner strong { font-family: var(--serif); font-size: 1.55rem; font-weight: 600; line-height: 1; }
+  .summary-ring__inner span { margin-top: 4px; color: var(--muted); font-size: 0.52rem; }
+  .summary-copy strong { display: block; font-size: 0.78rem; }
+  .summary-copy p { margin: 4px 0 0; color: var(--muted); font-size: 0.62rem; line-height: 1.5; }
+
+  .summary-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-bottom: 13px; }
+  .summary-stat { padding: 10px 5px; border: 1px solid rgba(34, 48, 43, 0.1); border-radius: 11px; background: rgba(255, 255, 255, 0.34); }
+  .summary-stat strong { display: block; font-family: var(--serif); font-size: 1.15rem; font-weight: 600; line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .summary-stat span { display: block; margin-top: 3px; color: var(--muted); font-size: 0.52rem; }
+  .summary-note { margin: 0 auto 15px; color: var(--ink-2); font-size: 0.66rem; line-height: 1.65; }
+  .summary-actions { display: flex; flex-direction: column; gap: 7px; }
+  .summary-actions .btn { width: 100%; }
+
+  /* ---------- Toast ---------- */
+  .toast {
+    position: fixed;
+    bottom: calc(84px + var(--safe-bottom));
+    left: 50%;
+    z-index: 200;
+    max-width: min(420px, calc(100% - 36px));
+    padding: 10px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 999px;
+    color: #f8f3e7;
+    background: rgba(30, 52, 43, 0.95);
+    box-shadow: 0 14px 32px rgba(20, 34, 28, 0.24);
+    font-size: 0.68rem;
+    line-height: 1.45;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, 10px);
+    transition: opacity 180ms ease, transform 180ms ease;
+  }
+
+  .toast.is-visible { opacity: 1; transform: translate(-50%, 0); }
+  .toast.is-error { background: rgba(128, 52, 43, 0.97); }
+
+  @keyframes rise-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes card-in { from { opacity: 0; transform: translateY(9px) scale(0.993); } to { opacity: 1; transform: translateY(0) scale(1); } }
+  @keyframes sheet-up { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  @media (max-width: 560px) {
+    .reveal-btn .kbd { display: none; }
+  }
+
+  @media (max-width: 360px) {
+    .main { padding-left: 13px; padding-right: 13px; }
+    .task-card { padding: 17px; }
+    .task-card h1 { font-size: 1.72rem; }
+    .task-card__actions .btn { font-size: 0.7rem; }
+    .day-num { width: 38px; height: 38px; flex-basis: 38px; font-size: 1rem; }
+    .sheet-head, .sheet-body, .sheet-foot { padding-left: 15px; padding-right: 15px; }
+    .summary-card { padding-left: 15px; padding-right: 15px; }
+  }
+
+  @media (max-height: 700px) {
+    .flashcard { min-height: 285px; }
+    .word-wrap { padding: 16px 0; }
+    .study-word { font-size: clamp(2.05rem, 10.5vw, 3rem); }
+    .task-card h1 { font-size: 1.8rem; }
+  }
+
+  @media (min-width: 560px) {
+    body { background: #e5ded0; }
+    .app { box-shadow: 0 24px 70px rgba(34, 44, 38, 0.16); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="app">
+    <header class="appbar">
+      <div class="brand">
+        <span class="brand__mark" aria-hidden="true">拾</span>
+        <div class="brand__copy">
+          <span class="brand__name">拾词</span>
+          <span class="brand__date" id="appDate"></span>
+        </div>
+      </div>
+      <button class="quick-import" type="button" data-action="open-import">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 3.5v11m0 0 4-4m-4 4-4-4M5 17.5v1.2A1.3 1.3 0 0 0 6.3 20h11.4a1.3 1.3 0 0 0 1.3-1.3v-1.2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        导入
+      </button>
+    </header>
+
+    <main class="main" id="appMain"></main>
+
+    <nav class="tabbar" aria-label="主导航">
+      <button class="tab is-active" type="button" data-tab="today" aria-current="page">
+        <span class="tab__icon">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <rect x="4" y="5.2" width="16" height="14.8" rx="3" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M8 3.5v3M16 3.5v3M4 9.5h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span>今日</span>
+      </button>
+      <button class="tab" type="button" data-tab="words">
+        <span class="tab__icon">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M5 4.5h10.5A2.5 2.5 0 0 1 18 7v13H7.5A2.5 2.5 0 0 1 5 17.5v-13Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+            <path d="M8.5 8.5h6M8.5 12h6M8.5 15.5h3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span>词单</span>
+      </button>
+      <button class="tab" type="button" data-tab="data">
+        <span class="tab__icon">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M4.5 8h15v10.5A1.5 1.5 0 0 1 18 20H6a1.5 1.5 0 0 1-1.5-1.5V8Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+            <path d="M3.5 4.5h17V8h-17zM9.5 11.5h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span>数据</span>
+      </button>
+    </nav>
+  </div>
+
+  <div class="sheet-layer" id="sheetLayer" hidden>
+    <button class="sheet-backdrop" type="button" data-action="close-sheet" aria-label="关闭弹窗"></button>
+    <section class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
+      <div class="sheet-grip" aria-hidden="true"></div>
+      <div id="sheetContent"></div>
+    </section>
+  </div>
+
+  <section class="study" id="studyLayer" hidden aria-label="单词背诵">
+    <div class="study-shell">
+      <div class="study-top">
+        <button class="study-exit" type="button" data-action="exit-study">
+          <span aria-hidden="true">←</span> 退出
+        </button>
+        <div class="study-meta">
+          <span id="studyMode">新词学习</span>
+          <span class="sep" aria-hidden="true"></span>
+          <span id="studyDay">Day 1</span>
+        </div>
+        <div class="study-count" id="studyCount">1 / 28</div>
+      </div>
+      <div class="study-progress" aria-hidden="true"><span id="studyProgress"></span></div>
+      <div class="study-body" id="studyStage" tabindex="-1">
+        <div class="study-inner">
+          <div class="flashcard" id="flashcard">
+            <div class="flashcard__meta">
+              <span class="pill" id="cardTag">新词</span>
+              <span class="card-index" id="cardIndex">Day 1 · 首次学习</span>
+            </div>
+            <div class="word-wrap">
+              <h2 class="study-word" id="studyWord" aria-live="polite">accelerator</h2>
+            </div>
+            <button class="reveal-btn" id="revealBtn" type="button" data-action="reveal">
+              显示释义 <span class="kbd">Space</span>
+            </button>
+            <div class="meaning-box" id="meaningBox" hidden aria-live="polite">
+              <p class="meaning-label">释义</p>
+              <p class="meaning-text" id="studyMeaning"></p>
+            </div>
+          </div>
+          <div class="answer-bar" id="answerBar" hidden>
+            <button class="answer forgot" type="button" data-action="answer" data-result="forgot">
+              <span class="answer__icon" aria-hidden="true">×</span>
+              <span class="answer__copy"><strong>没记住</strong><small>明天重来</small></span>
+            </button>
+            <button class="answer remember" type="button" data-action="answer" data-result="remember">
+              <span class="answer__icon" aria-hidden="true">✓</span>
+              <span class="answer__copy"><strong>记住了</strong><small>按曲线复习</small></span>
+            </button>
+          </div>
+          <p class="study-hint" id="studyHint">先在心里回想，再显示释义。如实作答即可。</p>
+        </div>
+      </div>
+      <div class="study-summary" id="studySummary" hidden></div>
+    </div>
+  </section>
+
+  <input id="fileInput" type="file" accept=".json,application/json,text/plain" hidden>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+(() => {
+  'use strict';
+
+  const STORAGE_KEY = 'shici-iphone-v1';
+  const INTERVALS = [1, 2, 4, 7, 15, 30];
+  const MAX_STAGE = INTERVALS.length;
+  const WEEKDAYS = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
+  const MAX_IMPORT_BYTES = 10 * 1024 * 1024;
+
+  const $ = (selector, root = document) => root.querySelector(selector);
+  const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
+
+  const els = {
+    main: $('#appMain'),
+    date: $('#appDate'),
+    sheetLayer: $('#sheetLayer'),
+    sheetContent: $('#sheetContent'),
+    studyLayer: $('#studyLayer'),
+    studyStage: $('#studyStage'),
+    studySummary: $('#studySummary'),
+    studyMode: $('#studyMode'),
+    studyDay: $('#studyDay'),
+    studyCount: $('#studyCount'),
+    studyProgress: $('#studyProgress'),
+    flashcard: $('#flashcard'),
+    cardTag: $('#cardTag'),
+    cardIndex: $('#cardIndex'),
+    studyWord: $('#studyWord'),
+    studyMeaning: $('#studyMeaning'),
+    revealBtn: $('#revealBtn'),
+    meaningBox: $('#meaningBox'),
+    answerBar: $('#answerBar'),
+    studyHint: $('#studyHint'),
+    fileInput: $('#fileInput'),
+    toast: $('#toast')
+  };
+
+  const ui = {
+    tab: 'today',
+    sheet: null,
+    study: null,
+    pendingImport: null,
+    importError: '',
+    importLoading: false,
+    pasteMode: false,
+    pasteDraft: '',
+    fileName: '',
+    filePurpose: 'merge',
+    toastTimer: null,
+    lastFocus: null,
+    storageWarned: false
+  };
+
+  const storageOK = testStorage();
+  let state = loadState();
+
+  /* ------------------------------------------------------------------ */
+  /* Utilities                                                          */
+  /* ------------------------------------------------------------------ */
+
+  function pad2(value) {
+    return String(value).padStart(2, '0');
+  }
+
+  function clampInt(value, min, max, fallback) {
+    const number = Number(value);
+    if (!Number.isFinite(number)) return fallback;
+    return Math.min(max, Math.max(min, Math.trunc(number)));
+  }
+
+  function nowIso() {
+    return new Date().toISOString();
+  }
+
+  function dateKeyOf(date) {
+    return `${date.getFullYear()}-${pad2(date.getMonth() + 1)}-${pad2(date.getDate())}`;
+  }
+
+  function todayKey() {
+    return dateKeyOf(new Date());
+  }
+
+  function parseDateKey(key) {
+    if (typeof key !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(key)) return null;
+    const parts = key.split('-').map(Number);
+    const date = new Date(parts[0], parts[1] - 1, parts[2], 12, 0, 0, 0);
+    if (
+      date.getFullYear() !== parts[0] ||
+      date.getMonth() !== parts[1] - 1 ||
+      date.getDate() !== parts[2]
+    ) return null;
+    return date;
+  }
+
+  function isDateKey(key) {
+    return parseDateKey(key) !== null;
+  }
+
+  function addDaysKey(key, amount) {
+    const date = parseDateKey(key) || new Date();
+    date.setDate(date.getDate() + amount);
+    return dateKeyOf(date);
+  }
+
+  function daysBetween(fromKey, toKey) {
+    const from = parseDateKey(fromKey);
+    const to = parseDateKey(toKey);
+    if (!from || !to) return 0;
+    const a = Date.UTC(from.getFullYear(), from.getMonth(), from.getDate());
+    const b = Date.UTC(to.getFullYear(), to.getMonth(), to.getDate());
+    return Math.round((b - a) / 86400000);
+  }
+
+  function formatToday() {
+    const date = new Date();
+    return `${date.getMonth() + 1}月${date.getDate()}日 · ${WEEKDAYS[date.getDay()]}`;
+  }
+
+  function weekdayOf(key) {
+    const date = parseDateKey(key);
+    return date ? WEEKDAYS[date.getDay()] : '';
+  }
+
+  function formatShortDate(key) {
+    const date = parseDateKey(key);
+    return date ? `${date.getMonth() + 1}月${date.getDate()}日` : '';
+  }
+
+  function greeting() {
+    const hour = new Date().getHours();
+    if (hour < 6) return '夜深了';
+    if (hour < 11) return '早上好';
+    if (hour < 14) return '中午好';
+    if (hour < 18) return '下午好';
+    return '晚上好';
+  }
+
+  function normalizeWord(value) {
+    return String(value || '').trim().toLowerCase().replace(/\s+/g, ' ');
+  }
+
+  function uid(prefix) {
+    try {
+      if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') {
+        return `${prefix}_${crypto.randomUUID()}`;
+      }
+    } catch (error) {
+      // Fall through.
+    }
+    return `${prefix}_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 10)}`;
+  }
+
+  function escapeHtml(value) {
+    const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+    return String(value == null ? '' : value).replace(/[&<>"']/g, (character) => map[character]);
+  }
+
+  function shuffle(items) {
+    const list = items.slice();
+    for (let index = list.length - 1; index > 0; index -= 1) {
+      const swapIndex = Math.floor(Math.random() * (index + 1));
+      [list[index], list[swapIndex]] = [list[swapIndex], list[index]];
+    }
+    return list;
+  }
+
+  function showToast(message, type = 'success') {
+    clearTimeout(ui.toastTimer);
+    els.toast.textContent = message;
+    els.toast.className = `toast is-visible${type === 'error' ? ' is-error' : ''}`;
+    ui.toastTimer = setTimeout(() => els.toast.classList.remove('is-visible'), 2800);
+  }
+
+  function testStorage() {
+    try {
+      const key = '__shici_storage_test__';
+      localStorage.setItem(key, '1');
+      localStorage.removeItem(key);
+      return true;
+    } catch (error) {
+      return false;
+    }
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* State                                                              */
+  /* ------------------------------------------------------------------ */
+
+  function freshState() {
+    const now = nowIso();
+    return { version: 1, days: [], studyDates: [], createdAt: now, updatedAt: now };
+  }
+
+  function normalizeState(raw) {
+    if (!raw || typeof raw !== 'object' || !Array.isArray(raw.days)) return null;
+
+    const result = freshState();
+    if (typeof raw.createdAt === 'string' && !Number.isNaN(Date.parse(raw.createdAt))) result.createdAt = raw.createdAt;
+    if (typeof raw.updatedAt === 'string' && !Number.isNaN(Date.parse(raw.updatedAt))) result.updatedAt = raw.updatedAt;
+
+    const dayMap = new Map();
+    const usedIds = new Set();
+    const usedWords = new Set();
+    const dates = new Set();
+
+    raw.days.forEach((rawDay) => {
+      if (!rawDay || typeof rawDay !== 'object') return;
+      const dayNumber = Number(rawDay.day);
+      if (!Number.isInteger(dayNumber) || dayNumber <= 0) return;
+
+      let day = dayMap.get(dayNumber);
+      if (!day) {
+        day = {
+          day: dayNumber,
+          title: typeof rawDay.title === 'string' && rawDay.title.trim() ? rawDay.title.trim() : `Day ${dayNumber}`,
+          note: typeof rawDay.note === 'string' ? rawDay.note.trim() : '',
+          importedAt: typeof rawDay.importedAt === 'string' ? rawDay.importedAt : nowIso(),
+          updatedAt: typeof rawDay.updatedAt === 'string' ? rawDay.updatedAt : nowIso(),
+          words: []
+        };
+        dayMap.set(dayNumber, day);
+      } else if (!day.note && typeof rawDay.note === 'string') {
+        day.note = rawDay.note.trim();
+      }
+
+      if (!Array.isArray(rawDay.words)) return;
+
+      rawDay.words.forEach((rawWord) => {
+        if (!rawWord || typeof rawWord !== 'object') return;
+        const word = String(rawWord.word || '').trim();
+        const meaning = String(rawWord.meaning || '').trim();
+        if (!word || !meaning) return;
+
+        const key = normalizeWord(word);
+        if (!key || usedWords.has(key)) return;
+        usedWords.add(key);
+
+        let id = typeof rawWord.id === 'string' ? rawWord.id.trim() : '';
+        if (!id || usedIds.has(id)) id = uid('w');
+        usedIds.add(id);
+
+        let learned = Boolean(rawWord.learned || rawWord.firstLearnedAt);
+        let mastered = Boolean(rawWord.mastered) && learned;
+        let stage = clampInt(rawWord.stage, 0, MAX_STAGE, 0);
+        let nextDue = isDateKey(rawWord.nextDue) ? rawWord.nextDue : null;
+
+        if (mastered) {
+          stage = MAX_STAGE;
+          nextDue = null;
+        }
+        if (learned && !mastered && !nextDue) nextDue = todayKey();
+        if (!learned) {
+          mastered = false;
+          stage = 0;
+          nextDue = null;
+        }
+
+        if (typeof rawWord.lastReviewedAt === 'string' && rawWord.lastReviewedAt) {
+          const reviewed = new Date(rawWord.lastReviewedAt);
+          if (!Number.isNaN(reviewed.getTime())) dates.add(dateKeyOf(reviewed));
+        }
+
+        day.words.push({
+          id,
+          word,
+          meaning,
+          createdAt: typeof rawWord.createdAt === 'string' ? rawWord.createdAt : nowIso(),
+          learned,
+          firstLearnedAt: typeof rawWord.firstLearnedAt === 'string' ? rawWord.firstLearnedAt : (learned ? nowIso() : null),
+          stage,
+          nextDue,
+          mastered,
+          reviewCount: clampInt(rawWord.reviewCount, 0, 100000, 0),
+          lapseCount: clampInt(rawWord.lapseCount, 0, 100000, 0),
+          lastResult: rawWord.lastResult === 'remember' || rawWord.lastResult === 'forgot' ? rawWord.lastResult : null,
+          lastReviewedAt: typeof rawWord.lastReviewedAt === 'string' ? rawWord.lastReviewedAt : null
+        });
+      });
+    });
+
+    result.days = Array.from(dayMap.values())
+      .filter((day) => day.words.length > 0)
+      .sort((a, b) => a.day - b.day);
+
+    if (Array.isArray(raw.studyDates)) {
+      raw.studyDates.forEach((key) => {
+        if (isDateKey(key)) dates.add(key);
+      });
+    }
+    result.studyDates = Array.from(dates).sort();
+    return result;
+  }
+
+  function loadState() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) return freshState();
+      return normalizeState(JSON.parse(raw)) || freshState();
+    } catch (error) {
+      return freshState();
+    }
+  }
+
+  function saveState() {
+    state.updatedAt = nowIso();
+    if (!storageOK) {
+      if (!ui.storageWarned) {
+        ui.storageWarned = true;
+        showToast('当前打开方式无法保存数据，请用 Safari 访问或把页面放到网址上。', 'error');
+      }
+      return;
+    }
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch (error) {
+      showToast('保存失败：浏览器存储空间不足。', 'error');
+    }
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Queries and scheduling                                             */
+  /* ------------------------------------------------------------------ */
+
+  function allWords() {
+    return state.days.flatMap((day) => day.words);
+  }
+
+  function getDayByNumber(dayNumber) {
+    return state.days.find((day) => day.day === Number(dayNumber)) || null;
+  }
+
+  function getWordContext(wordId) {
+    for (const day of state.days) {
+      const word = day.words.find((item) => item.id === wordId);
+      if (word) return { day, word };
+    }
+    return null;
+  }
+
+  function isDue(word) {
+    return Boolean(word && word.learned && !word.mastered && word.nextDue && word.nextDue <= todayKey());
+  }
+
+  function getStats() {
+    const words = allWords();
+    const dueWords = words.filter(isDue);
+    const mastered = words.filter((word) => word.mastered).length;
+    const unlearned = words.filter((word) => !word.learned).length;
+    return {
+      total: words.length,
+      days: state.days.length,
+      due: dueWords.length,
+      overdue: dueWords.filter((word) => word.nextDue < todayKey()).length,
+      unlearned,
+      mastered,
+      masteryPct: words.length ? Math.round((mastered / words.length) * 100) : 0,
+      streak: getStreak()
+    };
+  }
+
+  function getDayStats(day) {
+    const total = day.words.length;
+    const learned = day.words.filter((word) => word.learned).length;
+    const mastered = day.words.filter((word) => word.mastered).length;
+    const due = day.words.filter(isDue).length;
+    return {
+      total,
+      learned,
+      mastered,
+      due,
+      unlearned: total - learned,
+      progress: total ? Math.round((learned / total) * 100) : 0
+    };
+  }
+
+  function getNextUnlearnedDay() {
+    return state.days
+      .slice()
+      .sort((a, b) => a.day - b.day)
+      .find((day) => day.words.some((word) => !word.learned)) || null;
+  }
+
+  function getStreak() {
+    const studied = new Set(state.studyDates);
+    if (!studied.size) return 0;
+    let cursor = todayKey();
+    if (!studied.has(cursor)) cursor = addDaysKey(cursor, -1);
+    let streak = 0;
+    while (studied.has(cursor) && streak < 3660) {
+      streak += 1;
+      cursor = addDaysKey(cursor, -1);
+    }
+    return streak;
+  }
+
+  function markStudyToday() {
+    const key = todayKey();
+    if (!state.studyDates.includes(key)) {
+      state.studyDates.push(key);
+      state.studyDates.sort();
+    }
+  }
+
+  function applyRemember(word) {
+    const now = nowIso();
+    word.learned = true;
+    if (!word.firstLearnedAt) word.firstLearnedAt = now;
+    word.lastReviewedAt = now;
+    word.lastResult = 'remember';
+    word.reviewCount = clampInt(word.reviewCount, 0, 100000, 0) + 1;
+
+    if (word.stage >= MAX_STAGE) {
+      word.stage = MAX_STAGE;
+      word.mastered = true;
+      word.nextDue = null;
+      return;
+    }
+
+    const interval = INTERVALS[clampInt(word.stage, 0, MAX_STAGE - 1, 0)];
+    word.stage = clampInt(word.stage, 0, MAX_STAGE, 0) + 1;
+    word.nextDue = addDaysKey(todayKey(), interval);
+    word.mastered = false;
+  }
+
+  function applyForget(word) {
+    const now = nowIso();
+    word.learned = true;
+    if (!word.firstLearnedAt) word.firstLearnedAt = now;
+    word.lastReviewedAt = now;
+    word.lastResult = 'forgot';
+    word.lapseCount = clampInt(word.lapseCount, 0, 100000, 0) + 1;
+    word.stage = 0;
+    word.mastered = false;
+    word.nextDue = addDaysKey(todayKey(), 1);
+  }
+
+  function stageLabel(word) {
+    if (!word.learned) return '未学';
+    if (word.mastered) return '已掌握';
+    if (word.stage <= 0) return '待巩固';
+    return `第 ${word.stage} 阶`;
+  }
+
+  function dueText(word) {
+    if (!word.learned) return '未开始';
+    if (word.mastered) return '已完成';
+    if (!word.nextDue) return '待安排';
+    const today = todayKey();
+    if (word.nextDue === today) return '今天复习';
+    if (word.nextDue < today) return `逾期 ${daysBetween(word.nextDue, today)} 天`;
+    return formatShortDate(word.nextDue);
+  }
+
+  function makeWord(word, meaning) {
+    return {
+      id: uid('w'),
+      word,
+      meaning,
+      createdAt: nowIso(),
+      learned: false,
+      firstLearnedAt: null,
+      stage: 0,
+      nextDue: null,
+      mastered: false,
+      reviewCount: 0,
+      lapseCount: 0,
+      lastResult: null,
+      lastReviewedAt: null
+    };
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* JSON import                                                        */
+  /* ------------------------------------------------------------------ */
+
+  const WORD_SEPARATORS = [
+    /^(.+?)\s*—\s*(.+)$/,
+    /^(.+?)\s*–\s*(.+)$/,
+    /^(.+?)\s+--\s+(.+)$/,
+    /^(.+?)\s+-\s+(.+)$/,
+    /^(.+?)\t+(.+)$/
+  ];
+
+  function cleanWord(value) {
+    return String(value || '')
+      .replace(/^[-*•·]\s*/, '')
+      .replace(/[*_`~]/g, '')
+      .replace(/^[\s"'“”‘’「」【】]+|[\s"'“”‘’「」【】]+$/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function cleanMeaning(value) {
+    return String(value || '')
+      .replace(/\*\*/g, '')
+      .replace(/^[\s—–:：\-]+/, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function parseWordLine(line) {
+    let content = String(line || '')
+      .replace(/^[-*•·]\s+/, '')
+      .replace(/^\d+\s*[.、)）]\s*/, '')
+      .trim();
+
+    for (const separator of WORD_SEPARATORS) {
+      const match = content.match(separator);
+      if (match) {
+        const word = cleanWord(match[1]);
+        const meaning = cleanMeaning(match[2]);
+        if (word && meaning) return { word, meaning };
+        return null;
+      }
+    }
+    return null;
+  }
+
+  function normalizeWordEntry(entry) {
+    if (Array.isArray(entry)) {
+      const word = cleanWord(entry[0]);
+      const meaning = cleanMeaning(entry[1]);
+      return word && meaning ? { word, meaning } : null;
+    }
+
+    if (entry && typeof entry === 'object') {
+      const word = cleanWord(entry.word ?? entry.term ?? entry.en ?? entry.name ?? entry.english);
+      const meaning = cleanMeaning(entry.meaning ?? entry.definition ?? entry.def ?? entry.cn ?? entry.translation ?? entry.chinese);
+      return word && meaning ? { word, meaning } : null;
+    }
+
+    if (typeof entry === 'string') return parseWordLine(entry);
+    return null;
+  }
+
+  function dayNumberFrom(value) {
+    if (typeof value === 'number' && Number.isInteger(value) && value > 0) return value;
+    const match = String(value == null ? '' : value).match(/\d+/);
+    if (!match) return null;
+    const number = Number(match[0]);
+    return Number.isInteger(number) && number > 0 ? number : null;
+  }
+
+  function noteFromItem(item) {
+    let note = String(item.note ?? item.label ?? item.memo ?? item.desc ?? '').trim();
+    if (!note && typeof item.title === 'string') {
+      note = item.title
+        .replace(/^day\s*\d+\s*/i, '')
+        .replace(/^[（(]\s*/, '')
+        .replace(/\s*[）)]\s*$/, '')
+        .trim();
+    }
+    return note;
+  }
+
+  function parsePackage(raw) {
+    if (!raw || typeof raw !== 'object') throw new Error('JSON 内容为空。');
+
+    let source = raw;
+    if (raw.data && typeof raw.data === 'object' && (Array.isArray(raw.data.days) || raw.data.day != null)) {
+      source = raw.data;
+    }
+
+    let inputs = [];
+    if (Array.isArray(source.days)) {
+      inputs = source.days;
+    } else if (source.days && typeof source.days === 'object') {
+      inputs = Object.entries(source.days).map(([key, value]) => ({ day: key, ...(value || {}) }));
+    } else if (Array.isArray(source)) {
+      inputs = source;
+    } else if (source.day != null) {
+      inputs = [source];
+    } else {
+      throw new Error('没有找到 day 或 days 字段，无法识别。');
+    }
+
+    const warnings = [];
+    const days = [];
+    const seenWords = new Set();
+
+    inputs.forEach((item, index) => {
+      if (!item || typeof item !== 'object') {
+        warnings.push(`第 ${index + 1} 天格式不正确，已跳过。`);
+        return;
+      }
+
+      const dayNumber = dayNumberFrom(item.day ?? item.dayNumber ?? item.dayIndex ?? item.title);
+      if (!dayNumber) {
+        warnings.push(`第 ${index + 1} 天缺少有效的 Day 编号，已跳过。`);
+        return;
+      }
+
+      let rawWords = item.words ?? item.wordList ?? item.list ?? item.items ?? item.text;
+      let entries = [];
+      if (Array.isArray(rawWords)) {
+        entries = rawWords;
+      } else if (typeof rawWords === 'string') {
+        entries = rawWords.split(/\r?\n/).map((line) => line.trim()).filter(Boolean);
+      } else if (rawWords && typeof rawWords === 'object') {
+        if (rawWords.word || rawWords.term || rawWords.en) {
+          entries = [rawWords];
+        } else {
+          entries = Object.entries(rawWords).map(([word, meaning]) => ({ word, meaning }));
+        }
+      } else {
+        warnings.push(`Day ${dayNumber} 没有 words 词条，已跳过。`);
+        return;
+      }
+
+      const words = [];
+      entries.forEach((entry, entryIndex) => {
+        const parsed = normalizeWordEntry(entry);
+        if (!parsed) {
+          warnings.push(`Day ${dayNumber} 第 ${entryIndex + 1} 条缺少单词或释义，已跳过。`);
+          return;
+        }
+        if (parsed.word.length > 100) {
+          warnings.push(`Day ${dayNumber} 第 ${entryIndex + 1} 条单词过长，已跳过。`);
+          return;
+        }
+        const key = normalizeWord(parsed.word);
+        if (seenWords.has(key)) {
+          warnings.push(`「${parsed.word}」重复出现，只保留第一次。`);
+          return;
+        }
+        seenWords.add(key);
+        words.push(parsed);
+      });
+
+      if (words.length) {
+        days.push({ day: dayNumber, note: noteFromItem(item), words });
+      } else {
+        warnings.push(`Day ${dayNumber} 没有可用的单词，已跳过。`);
+      }
+    });
+
+    if (!days.length) throw new Error('没有识别到可导入的 Day 和单词。');
+    days.sort((a, b) => a.day - b.day);
+    return { days, warnings };
+  }
+
+  function parseJsonText(text) {
+    let raw;
+    try {
+      raw = JSON.parse(String(text || '').replace(/^\uFEFF/, ''));
+    } catch (error) {
+      throw new Error('JSON 格式不正确，请检查括号、引号和逗号。');
+    }
+    return parsePackage(raw);
+  }
+
+  function analyzePackage(pkg) {
+    const existing = new Set(allWords().map((word) => normalizeWord(word.word)));
+    let newCount = 0;
+    let duplicateCount = 0;
+    const changedDays = [];
+
+    pkg.days.forEach((day) => {
+      const fresh = day.words.filter((word) => !existing.has(normalizeWord(word.word)));
+      newCount += fresh.length;
+      duplicateCount += day.words.length - fresh.length;
+      if (fresh.length) {
+        changedDays.push({
+          day: day.day,
+          note: day.note,
+          total: day.words.length,
+          newCount: fresh.length,
+          words: fresh
+        });
+      }
+    });
+
+    return {
+      newCount,
+      duplicateCount,
+      changedDays,
+      startDay: changedDays.length ? changedDays[0].day : null
+    };
+  }
+
+  function mergePackage(pkg) {
+    const existing = new Set(allWords().map((word) => normalizeWord(word.word)));
+    let added = 0;
+    let skipped = 0;
+    let startDay = null;
+
+    pkg.days.forEach((pkgDay) => {
+      const fresh = pkgDay.words.filter((word) => !existing.has(normalizeWord(word.word)));
+      skipped += pkgDay.words.length - fresh.length;
+      if (!fresh.length) return;
+
+      let day = getDayByNumber(pkgDay.day);
+      if (!day) {
+        day = {
+          day: pkgDay.day,
+          title: `Day ${pkgDay.day}`,
+          note: pkgDay.note || '',
+          importedAt: nowIso(),
+          updatedAt: nowIso(),
+          words: []
+        };
+        state.days.push(day);
+      } else if (!day.note && pkgDay.note) {
+        day.note = pkgDay.note;
+      }
+
+      fresh.forEach((word) => {
+        const key = normalizeWord(word.word);
+        if (existing.has(key)) {
+          skipped += 1;
+          return;
+        }
+        day.words.push(makeWord(word.word, word.meaning));
+        existing.add(key);
+        added += 1;
+      });
+
+      day.words.sort((a, b) => a.word.localeCompare(b.word, 'en', { sensitivity: 'base' }));
+      day.updatedAt = nowIso();
+      if (startDay === null) startDay = day.day;
+    });
+
+    if (added > 0) {
+      state.days.sort((a, b) => a.day - b.day);
+      saveState();
+    }
+    return { added, skipped, startDay };
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Render helpers                                                     */
+  /* ------------------------------------------------------------------ */
+
+  function init() {
+    els.date.textContent = formatToday();
+    renderApp();
+    if (!storageOK) {
+      setTimeout(() => showToast('当前浏览器无法持久保存，请阅读「数据」页的打开方式。', 'error'), 500);
+    }
+    let lastDay = todayKey();
+    setInterval(() => {
+      const current = todayKey();
+      if (current !== lastDay) {
+        lastDay = current;
+        if (!ui.sheet && !ui.study) {
+          els.date.textContent = formatToday();
+          renderApp();
+        }
+      }
+    }, 60000);
+    document.addEventListener('visibilitychange', () => {
+      if (!document.hidden && !ui.sheet && !ui.study) {
+        els.date.textContent = formatToday();
+        renderApp();
+      }
+    });
+  }
+
+  function renderApp() {
+    els.date.textContent = formatToday();
+    $$('.tab').forEach((tab) => {
+      const active = tab.dataset.tab === ui.tab;
+      tab.classList.toggle('is-active', active);
+      if (active) tab.setAttribute('aria-current', 'page');
+      else tab.removeAttribute('aria-current');
+    });
+
+    if (ui.tab === 'today') els.main.innerHTML = renderToday();
+    else if (ui.tab === 'words') els.main.innerHTML = renderWords();
+    else els.main.innerHTML = renderData();
+  }
+
+  function switchTab(tab) {
+    if (!['today', 'words', 'data'].includes(tab)) return;
+    ui.tab = tab;
+    renderApp();
+    els.main.scrollTop = 0;
+  }
+
+  function renderToday() {
+    const stats = getStats();
+    if (!stats.total) {
+      return `
+        <div class="page-intro">
+          <p class="overline">今日</p>
+          <h1>${greeting()}，今天也背一点。</h1>
+        </div>
+        ${!storageOK ? '<div class="storage-warning">这个打开方式无法可靠保存数据。请用 Safari 打开，或把本页放到一个网址上使用。</div>' : ''}
+        ${renderEmpty()}`;
+    }
+
+    const nextDay = getNextUnlearnedDay();
+    const nextStats = nextDay ? getDayStats(nextDay) : null;
+
+    return `
+      <div class="page-intro">
+        <p class="overline">今日</p>
+        <h1>${greeting()}，今天也背一点。</h1>
+      </div>
+      ${renderTaskCard(stats, nextDay, nextStats)}
+      <div class="stat-grid">
+        ${renderStat('待复习', stats.due, '词')}
+        ${renderStat('待学', stats.unlearned, '词')}
+        ${renderStat('已掌握', stats.mastered, '词')}
+      </div>
+      ${renderPlan()}
+      ${renderRecentDays()}`;
+  }
+
+  function renderStat(label, value, unit) {
+    return `<div class="stat"><span>${label}</span><strong>${value}<small>${unit}</small></strong></div>`;
+  }
+
+  function renderTaskCard(stats, nextDay, nextStats) {
+    let headline = '';
+    let subline = '';
+    let actions = '';
+
+    if (stats.due > 0) {
+      headline = `还有 <em>${stats.due}</em> 个词<br>等你复习。`;
+      subline = stats.overdue
+        ? `其中 ${stats.overdue} 个已经逾期。先把旧的捞回来，再学新的。`
+        : '按记忆曲线到期。先复习，再学新词。';
+      actions = `
+        <button class="btn btn-cream" type="button" data-action="review-all">开始复习</button>
+        ${nextDay && nextStats
+          ? `<button class="btn btn-outline-light" type="button" data-action="learn-day" data-day="${nextDay.day}">学 Day ${nextDay.day}</button>`
+          : `<button class="btn btn-outline-light" type="button" data-action="open-import">导入新词</button>`}`;
+    } else if (nextDay && nextStats) {
+      headline = `今天有 <em>${stats.unlearned}</em> 个<br>新词要认识。`;
+      subline = `从 Day ${nextDay.day} 开始。先回想，再显示释义，记住就前进。`;
+      actions = `
+        <button class="btn btn-cream" type="button" data-action="learn-day" data-day="${nextDay.day}">开始学习</button>
+        <button class="btn btn-outline-light" type="button" data-action="open-import">导入新词</button>`;
+    } else {
+      headline = '今天的任务<br>已经完成。';
+      subline = '没有到期复习。可以导入明天的词，或者去词单看看每个词的进度。';
+      actions = `
+        <button class="btn btn-cream" type="button" data-action="open-import">导入新词</button>
+        <button class="btn btn-outline-light" type="button" data-tab="words">查看词单</button>`;
+    }
+
+    return `
+      <section class="task-card">
+        <div class="task-card__top">
+          <span class="task-pill">今日任务</span>
+          <span class="streak">连续 ${stats.streak} 天</span>
+        </div>
+        <h1>${headline}</h1>
+        <p class="task-card__sub">${subline}</p>
+        <div class="task-card__actions">${actions}</div>
+        <div class="task-card__deco" aria-hidden="true">
+          <svg viewBox="0 0 150 125" fill="none">
+            <path d="M8 20c31 1 47 35 57 58 9 20 21 27 74 32" stroke="#d9b173" stroke-width="1.8" stroke-linecap="round" opacity=".75"/>
+            <circle cx="8" cy="20" r="3.2" fill="#f8f3e7" stroke="#c28a46" stroke-width="1.5"/>
+            <circle cx="65" cy="78" r="2.6" fill="#f8f3e7" stroke="#c28a46" stroke-width="1.5"/>
+            <circle cx="139" cy="110" r="3" fill="#f8f3e7" stroke="#c28a46" stroke-width="1.5"/>
+          </svg>
+        </div>
+      </section>`;
+  }
+
+  function renderPlan() {
+    const dates = [1, 2, 3].map((offset) => addDaysKey(todayKey(), offset));
+    const labels = ['明天', '后天', weekdayOf(dates[2])];
+    const chips = dates.map((date, index) => {
+      const count = allWords().filter((word) => !word.mastered && word.nextDue === date).length;
+      return `<div class="plan-chip${count ? '' : ' is-quiet'}"><span>${labels[index]}</span><strong>${count}</strong></div>`;
+    }).join('');
+
+    return `
+      <section class="section">
+        <div class="section-head"><h2>接下来</h2><span class="aside">复习会按曲线自动出现</span></div>
+        <div class="plan-grid">${chips}</div>
+      </section>`;
+  }
+
+  function renderRecentDays() {
+    const recent = state.days.slice().sort((a, b) => b.day - a.day).slice(0, 3);
+    return `
+      <section class="section">
+        <div class="section-head">
+          <h2>我的词单</h2>
+          ${state.days.length > 3 ? '<button class="section-link" type="button" data-tab="words">全部</button>' : ''}
+        </div>
+        <div class="day-list">${recent.map(renderDayRow).join('')}</div>
+      </section>`;
+  }
+
+  function renderDayRow(day) {
+    const stats = getDayStats(day);
+    let badgeClass = 'badge-idle';
+    let badgeText = '巩固中';
+    if (stats.due > 0) {
+      badgeClass = 'badge-due';
+      badgeText = `复习 ${stats.due}`;
+    } else if (stats.unlearned > 0) {
+      badgeClass = 'badge-new';
+      badgeText = `待学 ${stats.unlearned}`;
+    } else if (stats.total > 0 && stats.mastered === stats.total) {
+      badgeClass = 'badge-ok';
+      badgeText = '已掌握';
+    }
+
+    return `
+      <button class="day-row" type="button" data-action="open-day" data-day="${day.day}">
+        <span class="day-num">${pad2(day.day)}</span>
+        <span class="day-copy">
+          <h3>Day ${day.day}<span class="badge ${badgeClass}">${badgeText}</span></h3>
+          <p>${escapeHtml([day.note, `${stats.total} 个单词`].filter(Boolean).join(' · '))}</p>
+          <span class="day-progress"><i style="width:${stats.progress}%"></i></span>
+        </span>
+      </button>`;
+  }
+
+  function renderEmpty() {
+    return `
+      <section class="empty-hero">
+        <div class="empty-art" aria-hidden="true">
+          <svg viewBox="0 0 210 112" fill="none">
+            <rect x="12" y="25" width="88" height="56" rx="7" stroke="#235c4a" stroke-width="1.8"/>
+            <path d="M4 89h104l-7 8H11l-7-8Z" fill="#e1ebe4" stroke="#235c4a" stroke-width="1.6" stroke-linejoin="round"/>
+            <path d="M29 40h54M29 51h42M29 62h30" stroke="#7d8982" stroke-width="2" stroke-linecap="round"/>
+            <path d="M119 51h22m0 0-5-5m5 5-5 5" stroke="#b47b38" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="157" y="13" width="43" height="82" rx="9" stroke="#235c4a" stroke-width="1.8" fill="#fbf9f3"/>
+            <path d="M169 30h18M169 40h13" stroke="#7d8982" stroke-width="1.8" stroke-linecap="round"/>
+            <rect x="169" y="52" width="19" height="23" rx="5" fill="#f1e5cf" stroke="#b47b38" stroke-width="1.4"/>
+            <path d="M173 60h11M173 66h7" stroke="#b47b38" stroke-width="1.4" stroke-linecap="round"/>
+            <circle cx="178.5" cy="84" r="2.2" fill="#235c4a"/>
+          </svg>
+        </div>
+        <p class="overline">电脑 → iPhone</p>
+        <h1>把电脑上的词，<br>带到手机上背。</h1>
+        <p>不需要安装 App，也不和电脑实时连接。每天在电脑导出 JSON，传到 iPhone 后在这里导入。</p>
+        <button class="btn btn-primary" type="button" data-action="open-import">导入电脑 JSON</button>
+        <button class="btn btn-ghost" type="button" data-action="open-paste">粘贴 JSON 文本</button>
+        <div class="mini-steps">
+          <div><b>01</b><span>电脑上导出当天 JSON 文件</span></div>
+          <div><b>02</b><span>AirDrop 或存到「文件」App</span></div>
+          <div><b>03</b><span>在手机上导入，只新增单词，不覆盖记忆进度</span></div>
+        </div>
+      </section>`;
+  }
+
+  function renderWords() {
+    const stats = getStats();
+    if (!stats.total) {
+      return `
+        <div class="page-intro"><p class="overline">词单</p><h1>还没有词单。</h1><p>先导入电脑上的 JSON，手机才会开始安排复习。</p></div>
+        <div class="empty-note"><strong>等待第一份词表</strong>电脑导出后，通过 AirDrop 传到 iPhone，再回这里导入。</div>
+        <button class="btn btn-primary btn-block" style="margin-top:12px" type="button" data-action="open-import">导入电脑 JSON</button>`;
+    }
+
+    const days = state.days.slice().sort((a, b) => b.day - a.day);
+    return `
+      <div class="page-intro"><p class="overline">词单</p><h1>我的词单</h1><p>共 ${stats.days} 天 · ${stats.total} 个单词</p></div>
+      <div class="summary-strip">
+        <div><strong>${stats.days}</strong><span>天词单</span></div>
+        <div><strong>${stats.unlearned}</strong><span>待学</span></div>
+        <div><strong>${stats.mastered}</strong><span>已掌握</span></div>
+      </div>
+      <div class="day-list">${days.map(renderDayRow).join('')}</div>
+      <button class="btn btn-secondary btn-block" style="margin-top:12px" type="button" data-action="open-import">＋ 导入新一天</button>`;
+  }
+
+  function renderData() {
+    const stats = getStats();
+    return `
+      <div class="page-intro"><p class="overline">数据</p><h1>电脑导入，手机复习。</h1><p>每次导入只添加新词，手机上的「记住 / 没记住」不会被覆盖。</p></div>
+      ${!storageOK ? '<div class="storage-warning">当前打开方式无法可靠保存数据。请用 Safari 打开，或把本页放到一个网址上（例如 GitHub Pages / Netlify Drop）再使用。</div>' : ''}
+      <section class="card import-card">
+        <div class="import-card__top">
+          <span class="import-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3.5v11m0 0 4-4m-4 4-4-4M5 17.5v1.2A1.3 1.3 0 0 0 6.3 20h11.4a1.3 1.3 0 0 0 1.3-1.3v-1.2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <div><h2>导入电脑数据</h2><p>从「文件」App 选择 JSON 文件</p></div>
+        </div>
+        <p>电脑版导出的完整备份可以直接导入；也支持只含当天词表的精简 JSON。</p>
+        <button class="btn btn-primary btn-block" type="button" data-action="open-import">选择 JSON 文件</button>
+        <button class="btn btn-secondary btn-block" type="button" data-action="open-paste">粘贴 JSON 文本</button>
+      </section>
+      <section class="card">
+        <div class="card-head"><h2>手机上的数据</h2><span>${stats.total} 个词</span></div>
+        <div class="data-grid">
+          <div><strong>${stats.days}</strong><span>天词单</span></div>
+          <div><strong>${stats.due}</strong><span>待复习</span></div>
+          <div><strong>${stats.mastered}</strong><span>已掌握</span></div>
+        </div>
+        <div class="action-list">
+          <button class="btn btn-secondary" type="button" data-action="export-phone">导出 / 分享手机存档</button>
+          <button class="btn btn-secondary" type="button" data-action="restore-phone">从完整备份恢复（覆盖）</button>
+          <button class="btn btn-danger" type="button" data-action="clear-data">清空手机数据</button>
+        </div>
+      </section>
+      <section class="card help-card">
+        <details open>
+          <summary>每天怎么导入？</summary>
+          <div class="help-card__body">
+            <ol>
+              <li>在电脑上把当天单词加入桌面版，点「导出 JSON」。</li>
+              <li>用 AirDrop 把 JSON 传到 iPhone，保存到「文件」App。</li>
+              <li>回到本页点「导入」，选择文件。只会新增手机上没有的单词。</li>
+            </ol>
+          </div>
+        </details>
+        <details>
+          <summary>第一次从电脑迁移</summary>
+          <div class="help-card__body">
+            <p>如果电脑上已经背过一部分，想连进度一起迁到手机：先在电脑导出完整备份，再用「从完整备份恢复」。之后的每日导入只用「导入」即可，手机进度会一直保留。</p>
+          </div>
+        </details>
+        <details>
+          <summary>精简 JSON 格式</summary>
+          <div class="help-card__body">
+            <p>电脑只要生成这样的单日 JSON，手机也能识别：</p>
+<pre>{
+  "day": 2,
+  "note": "A-Z 排序",
+  "words": [
+    { "word": "accelerator", "meaning": "n. 加速器" },
+    { "word": "auctioneer", "meaning": "n. 拍卖商" }
+  ]
+}</pre>
+            <p>words 也可以是字符串数组：<strong>["word — 释义", ...]</strong>。多天则用 <strong>{"days": [...]}</strong>。</p>
+          </div>
+        </details>
+        <details>
+          <summary>在 iPhone 上怎么打开？</summary>
+          <div class="help-card__body">
+            <p>用 Safari 打开本页。若从「文件」App 打开 HTML，长按文件 → 共享 → Safari。</p>
+            <p><strong>如果发现数据不能保存</strong>，说明本地文件没有存储权限。把本文件放到任意静态网址（GitHub Pages、Netlify Drop 等），用 Safari 打开并「添加到主屏幕」，数据就能持续保存。它仍然是一个网页，不是 App。</p>
+          </div>
+        </details>
+        <details>
+          <summary>数据保存在哪里？</summary>
+          <div class="help-card__body">
+            <p>只保存在当前浏览器的本地存储中，不上传服务器。换浏览器、清理 Safari 网站数据或换手机前，先在「数据」里导出手机存档。</p>
+          </div>
+        </details>
+      </section>
+      <p class="footer-note">拾词 · iPhone 版 · 艾宾浩斯 1 / 2 / 4 / 7 / 15 / 30 天</p>`;
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Sheet                                                              */
+  /* ------------------------------------------------------------------ */
+
+  function openSheet(kind, payload = {}) {
+    if (ui.study) return;
+    ui.lastFocus = document.activeElement;
+    ui.sheet = { kind, ...payload };
+    els.sheetLayer.hidden = false;
+    renderSheet();
+    requestAnimationFrame(() => {
+      const target = els.sheetContent.querySelector('#pasteInput') || els.sheetContent.querySelector('.icon-btn') || els.sheetContent.querySelector('button');
+      if (target) {
+        try { target.focus({ preventScroll: true }); } catch (error) { target.focus(); }
+      }
+    });
+  }
+
+  function closeSheet() {
+    if (els.sheetLayer.hidden) return;
+    els.sheetLayer.hidden = true;
+    els.sheetContent.innerHTML = '';
+    ui.sheet = null;
+    ui.pendingImport = null;
+    ui.importError = '';
+    ui.importLoading = false;
+    ui.pasteMode = false;
+    if (ui.lastFocus && typeof ui.lastFocus.focus === 'function' && document.contains(ui.lastFocus)) {
+      try { ui.lastFocus.focus({ preventScroll: true }); } catch (error) { ui.lastFocus.focus(); }
+    }
+    ui.lastFocus = null;
+  }
+
+  function openImportSheet() {
+    ui.pendingImport = null;
+    ui.importError = '';
+    ui.importLoading = false;
+    ui.pasteMode = false;
+    ui.pasteDraft = '';
+    ui.fileName = '';
+    openSheet('import');
+  }
+
+  function openPasteSheet() {
+    ui.pendingImport = null;
+    ui.importError = '';
+    ui.importLoading = false;
+    ui.pasteMode = true;
+    ui.pasteDraft = '';
+    ui.fileName = '';
+    openSheet('import');
+  }
+
+  function renderSheet() {
+    if (!ui.sheet) {
+      els.sheetContent.innerHTML = '';
+      return;
+    }
+    if (ui.sheet.kind === 'day') {
+      renderDaySheet();
+      return;
+    }
+    renderImportSheet();
+    afterSheetRender();
+  }
+
+  function sheetHead(title, subtitle, eyebrow = '') {
+    return `
+      <div class="sheet-head">
+        <div>
+          ${eyebrow ? `<p class="overline">${escapeHtml(eyebrow)}</p>` : ''}
+          <h2 id="sheetTitle">${escapeHtml(title)}</h2>
+          ${subtitle ? `<p>${escapeHtml(subtitle)}</p>` : ''}
+        </div>
+        <button class="icon-btn" type="button" data-action="close-sheet" aria-label="关闭">×</button>
+      </div>`;
+  }
+
+  function renderImportSheet() {
+    if (ui.importLoading) {
+      els.sheetContent.innerHTML = `
+        ${sheetHead('正在读取', '从电脑传来的 JSON', '导入')}
+        <div class="sheet-body"><div class="loading"><span class="spinner"></span>正在解析词表…</div></div>`;
+      return;
+    }
+
+    if (ui.pendingImport) {
+      renderImportPreview();
+      return;
+    }
+
+    if (ui.pasteMode) {
+      const error = ui.importError ? `<div class="alert">${escapeHtml(ui.importError)}</div>` : '';
+      els.sheetContent.innerHTML = `
+        ${sheetHead('粘贴 JSON', '把电脑生成的 JSON 文本贴进来', '导入')}
+        <div class="sheet-body">
+          ${error}
+          <textarea class="paste-area" id="pasteInput" spellcheck="false" placeholder='{
+  "day": 2,
+  "note": "A-Z 排序",
+  "words": [
+    { "word": "accelerator", "meaning": "n. 加速器" }
+  ]
+}'></textarea>
+          <div class="note-box">只添加手机上没有的单词，不覆盖已有的复习进度。</div>
+        </div>
+        <div class="sheet-foot">
+          <button class="btn btn-ghost" type="button" data-action="back-to-file">选文件</button>
+          <span class="spacer"></span>
+          <button class="btn btn-primary" type="button" data-action="parse-paste">识别 JSON</button>
+        </div>`;
+      requestAnimationFrame(() => {
+        const textarea = $('#pasteInput');
+        if (textarea) {
+          textarea.value = ui.pasteDraft;
+          try { textarea.focus({ preventScroll: true }); } catch (error) { textarea.focus(); }
+        }
+      });
+      return;
+    }
+
+    const error = ui.importError ? `<div class="alert">${escapeHtml(ui.importError)}</div>` : '';
+    els.sheetContent.innerHTML = `
+      ${sheetHead('导入电脑数据', '选择电脑导出的 JSON 文件', '电脑 → iPhone')}
+      <div class="sheet-body">
+        ${error}
+        <div class="file-card">
+          <div class="file-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.5 3.8h7l4 4v12.4a.8.8 0 0 1-.8.8H6.5a.8.8 0 0 1-.8-.8V4.6a.8.8 0 0 1 .8-.8Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M13.5 3.9v4h4M9 12h6M9 15h6M9 18h3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </div>
+          <h3>选择 JSON 文件</h3>
+          <p>支持桌面版完整备份，也支持单日词表 JSON。</p>
+          <button class="btn btn-primary" type="button" data-action="choose-json">从「文件」选择</button>
+        </div>
+        <div class="or-line">或</div>
+        <button class="btn btn-secondary btn-block" type="button" data-action="paste-mode">粘贴 JSON 文本</button>
+        <div class="note-box"><strong>导入规则：</strong>只新增手机上没有的单词，不覆盖已有的记忆进度。电脑备份里的旧词会被跳过。</div>
+      </div>`;
+  }
+
+  function renderImportPreview() {
+    const pkg = ui.pendingImport;
+    const analysis = analyzePackage(pkg);
+    const totalWords = pkg.days.reduce((sum, day) => sum + day.words.length, 0);
+    const startDay = analysis.startDay;
+    const title = analysis.newCount
+      ? `Day ${startDay} · ${analysis.newCount} 个新词`
+      : '没有新词';
+    const subtitle = `${pkg.days.length} 天 · 共 ${totalWords} 词${analysis.duplicateCount ? ` · ${analysis.duplicateCount} 个已在手机` : ''}`;
+
+    const warnings = pkg.warnings.length
+      ? `<ul class="warnings">${pkg.warnings.slice(0, 6).map((warning) => `<li>${escapeHtml(warning)}</li>`).join('')}${pkg.warnings.length > 6 ? `<li>还有 ${pkg.warnings.length - 6} 条提示…</li>` : ''}</ul>`
+      : '';
+
+    const days = analysis.changedDays.length
+      ? analysis.changedDays.map((day) => `
+        <div class="changed-day">
+          <div class="changed-day__head">
+            <strong>Day ${day.day}</strong>
+            <span>${escapeHtml(day.note || '')}</span>
+            <em>新增 ${day.newCount}</em>
+          </div>
+          <ul class="changed-words">
+            ${day.words.slice(0, 6).map((word) => `<li><b>${escapeHtml(word.word)}</b><small>${escapeHtml(word.meaning)}</small></li>`).join('')}
+          </ul>
+        </div>`).join('')
+      : '<div class="empty-note"><strong>这些词都已经在手机上了</strong>没有需要新增的内容。</div>';
+
+    const fileLine = ui.fileName ? `<p>文件：${escapeHtml(ui.fileName)}</p>` : '';
+
+    els.sheetContent.innerHTML = `
+      ${sheetHead('识别完成', '确认后导入，只新增，不覆盖手机进度', '导入')}
+      <div class="sheet-body">
+        <div class="import-summary">
+          <div class="import-summary__top">
+            <div>
+              <h3>${escapeHtml(title)}</h3>
+              <p>${escapeHtml(subtitle)}</p>
+              ${fileLine}
+            </div>
+            <span class="badge ${analysis.newCount ? 'badge-ok' : 'badge-idle'}">${analysis.newCount ? '可导入' : '已存在'}</span>
+          </div>
+          <div class="import-stats">
+            <div class="import-stat"><strong>${analysis.newCount}</strong><span>新增</span></div>
+            <div class="import-stat"><strong>${analysis.duplicateCount}</strong><span>跳过</span></div>
+            <div class="import-stat"><strong>${pkg.days.length}</strong><span>识别天数</span></div>
+          </div>
+        </div>
+        ${warnings}
+        <div class="changed-days">${days}</div>
+        <div class="note-box">导入后，新词会立即加入手机词单。旧词和已背记录保持原样。</div>
+        <button class="btn btn-ghost btn-block" style="margin-top:10px" type="button" data-action="reset-import">重新选择</button>
+      </div>
+      <div class="sheet-foot">
+        <button class="btn btn-ghost" type="button" data-action="close-sheet">取消</button>
+        <span class="spacer"></span>
+        <button class="btn btn-primary" type="button" data-action="commit-import" ${analysis.newCount ? '' : 'disabled'}>
+          ${analysis.newCount ? `导入并开始 Day ${startDay}` : '没有新词'}
+        </button>
+      </div>`;
+  }
+
+  function afterSheetRender() {
+    if (!ui.sheet || ui.sheet.kind !== 'import') return;
+    if (!ui.pasteMode) return;
+    const textarea = $('#pasteInput');
+    if (textarea) {
+      textarea.value = ui.pasteDraft;
+      try { textarea.focus({ preventScroll: true }); } catch (error) { textarea.focus(); }
+    }
+  }
+
+  function renderDaySheet() {
+    const day = getDayByNumber(ui.sheet?.day);
+    if (!day) {
+      closeSheet();
+      return;
+    }
+
+    const stats = getDayStats(day);
+    const actions = [];
+    if (stats.unlearned > 0) {
+      actions.push(`<button class="btn btn-primary" type="button" data-action="study-day" data-day="${day.day}">学习剩余 ${stats.unlearned} 词</button>`);
+    }
+    if (stats.due > 0) {
+      actions.push(`<button class="btn btn-secondary" type="button" data-action="review-day" data-day="${day.day}">复习本天 ${stats.due} 词</button>`);
+    }
+
+    const rows = day.words.map((word) => {
+      const label = stageLabel(word);
+      let tagClass = 'stage-tag';
+      if (!word.learned) tagClass += ' is-new';
+      else if (word.mastered) tagClass += ' is-mastered';
+      else if (isDue(word)) tagClass += ' is-due';
+
+      return `
+        <div class="word-row">
+          <div class="word-row__top">
+            <span class="word-row__word">${escapeHtml(word.word)}</span>
+            <span class="${tagClass}">${escapeHtml(label)}</span>
+          </div>
+          <p class="word-row__meaning">${escapeHtml(word.meaning)}</p>
+          <div class="word-row__meta"><span>${escapeHtml(dueText(word))}</span><span>复习 ${word.reviewCount || 0} 次</span></div>
+        </div>`;
+    }).join('');
+
+    els.sheetContent.innerHTML = `
+      ${sheetHead(`Day ${day.day}`, `${stats.total} 个单词 · 已学 ${stats.learned} / ${stats.total}`, '词单')}
+      <div class="sheet-body">
+        <div class="day-detail-stats">
+          <div class="day-detail-stat"><strong>${stats.total}</strong><span>总词数</span></div>
+          <div class="day-detail-stat"><strong>${stats.learned}</strong><span>已学</span></div>
+          <div class="day-detail-stat"><strong>${stats.due}</strong><span>待复习</span></div>
+          <div class="day-detail-stat"><strong>${stats.mastered}</strong><span>已掌握</span></div>
+        </div>
+        <div class="detail-actions">${actions.length ? actions.join('') : '<span class="note-box">本天暂时没有待办。</span>'}</div>
+        <div class="word-scroll">${rows}</div>
+      </div>
+      <div class="sheet-foot"><button class="btn btn-ghost" type="button" data-action="close-sheet">关闭</button></div>`;
+  }
+
+  function chooseJson() {
+    ui.filePurpose = 'merge';
+    els.fileInput.value = '';
+    els.fileInput.click();
+  }
+
+  function readMergeFile(file) {
+    if (!file) return;
+    if (!ui.sheet || ui.sheet.kind !== 'import') openImportSheet();
+    ui.importLoading = true;
+    ui.importError = '';
+    ui.pendingImport = null;
+    ui.fileName = file.name || '';
+    renderSheet();
+
+    if (file.size > MAX_IMPORT_BYTES) {
+      ui.importLoading = false;
+      ui.importError = '文件太大（超过 10 MB），请确认这是词表 JSON。';
+      renderSheet();
+      return;
+    }
+
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const pkg = parseJsonText(String(reader.result || ''));
+        ui.pendingImport = pkg;
+        ui.importError = '';
+      } catch (error) {
+        ui.importError = error.message || '无法识别这个 JSON 文件。';
+      } finally {
+        ui.importLoading = false;
+        renderSheet();
+      }
+    };
+    reader.onerror = () => {
+      ui.importLoading = false;
+      ui.importError = '读取文件失败，请重新选择。';
+      renderSheet();
+    };
+    reader.readAsText(file, 'utf-8');
+  }
+
+  function commitImport() {
+    if (!ui.pendingImport) return;
+    const analysis = analyzePackage(ui.pendingImport);
+    if (!analysis.newCount) {
+      ui.importError = '没有可新增的单词。';
+      renderSheet();
+      return;
+    }
+
+    const result = mergePackage(ui.pendingImport);
+    const startDay = result.startDay;
+    ui.pendingImport = null;
+    ui.fileName = '';
+    closeSheet();
+    renderApp();
+    showToast(`已新增 ${result.added} 个单词${result.skipped ? `，跳过 ${result.skipped} 个已有词` : ''}。`);
+    if (startDay) {
+      setTimeout(() => {
+        if (!ui.study) startStudy('learn', { day: startDay });
+      }, 180);
+    }
+  }
+
+  function resetImport() {
+    ui.pendingImport = null;
+    ui.importError = '';
+    ui.importLoading = false;
+    ui.pasteMode = false;
+    ui.fileName = '';
+    renderSheet();
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Backup / restore / clear                                           */
+  /* ------------------------------------------------------------------ */
+
+  function backupPayload() {
+    return { app: '拾词 iPhone', version: 1, exportedAt: nowIso(), data: state };
+  }
+
+  function fallbackDownload(json) {
+    const blob = new Blob([json], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const anchor = document.createElement('a');
+    anchor.href = url;
+    anchor.download = `拾词手机备份-${todayKey()}.json`;
+    anchor.rel = 'noopener';
+    document.body.appendChild(anchor);
+    anchor.click();
+    anchor.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+    showToast('手机存档已导出到文件。');
+  }
+
+  async function exportPhoneData() {
+    if (!state.days.length) {
+      showToast('还没有可以导出的数据。', 'error');
+      return;
+    }
+    const json = JSON.stringify(backupPayload(), null, 2);
+    const filename = `拾词手机备份-${todayKey()}.json`;
+
+    try {
+      const file = new File([json], filename, { type: 'application/json' });
+      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        await navigator.share({ files: [file], title: '拾词手机存档' });
+        return;
+      }
+    } catch (error) {
+      if (error && error.name === 'AbortError') return;
+    }
+
+    try {
+      fallbackDownload(json);
+    } catch (error) {
+      showToast('导出失败，请重试。', 'error');
+    }
+  }
+
+  function restorePhoneFile(file) {
+    if (!file) return;
+    if (file.size > MAX_IMPORT_BYTES) {
+      showToast('备份文件太大。', 'error');
+      return;
+    }
+    showToast('正在读取备份…');
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const raw = JSON.parse(String(reader.result || '').replace(/^\uFEFF/, ''));
+        const data = raw && raw.data ? raw.data : raw;
+        const next = normalizeState(data);
+        if (!next || !next.days.length) {
+          throw new Error('这不是完整的手机备份文件。');
+        }
+        const total = next.days.reduce((sum, day) => sum + day.words.length, 0);
+        const okay = window.confirm(`将用备份中的 ${next.days.length} 天、${total} 个单词覆盖当前手机数据，确定继续吗？`);
+        if (!okay) return;
+
+        state = next;
+        saveState();
+        renderApp();
+        showToast('手机存档已恢复。');
+      } catch (error) {
+        showToast(error.message || '备份文件无法识别。', 'error');
+      }
+    };
+    reader.onerror = () => showToast('读取备份失败。', 'error');
+    reader.readAsText(file, 'utf-8');
+  }
+
+  function clearAllData() {
+    const okay = window.confirm('将删除手机上的全部词单和记忆记录，且无法恢复。确定继续吗？');
+    if (!okay) return;
+    state = freshState();
+    saveState();
+    renderApp();
+    showToast('手机数据已清空。');
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Study                                                              */
+  /* ------------------------------------------------------------------ */
+
+  function startStudy(mode, options = {}) {
+    if (ui.study) return;
+    if (!els.sheetLayer.hidden) closeSheet();
+
+    let words = [];
+    let dayNumber = null;
+    let modeLabel = '';
+
+    if (mode === 'learn') {
+      let day = options.day ? getDayByNumber(options.day) : getNextUnlearnedDay();
+      if (!day) {
+        showToast('没有待学习的新词。', 'error');
+        return;
+      }
+      words = day.words
+        .filter((word) => !word.learned)
+        .sort((a, b) => a.word.localeCompare(b.word, 'en', { sensitivity: 'base' }));
+      dayNumber = day.day;
+      modeLabel = '新词学习';
+    } else if (mode === 'review') {
+      let pool = allWords();
+      if (options.day) {
+        const day = getDayByNumber(options.day);
+        if (!day) {
+          showToast('没有找到这天的词单。', 'error');
+          return;
+        }
+        pool = day.words;
+      }
+      words = shuffle(pool.filter(isDue));
+      modeLabel = '到期复习';
+    } else {
+      return;
+    }
+
+    if (!words.length) {
+      showToast(mode === 'review' ? '今天没有到期复习。' : '没有待学习的新词。', 'error');
+      return;
+    }
+
+    ui.study = {
+      mode,
+      modeLabel,
+      dayNumber,
+      queue: words.map((word) => ({ wordId: word.id, retry: false })),
+      cursor: 0,
+      revealed: false,
+      finished: false,
+      firstTotal: words.length,
+      firstDone: 0,
+      firstRemembered: 0,
+      firstForgot: 0,
+      retryTotal: 0,
+      retryDone: 0,
+      recovered: 0,
+      notRecovered: 0,
+      startedAt: Date.now()
+    };
+
+    els.studyLayer.hidden = false;
+    els.studyStage.hidden = false;
+    els.studySummary.hidden = true;
+    els.studySummary.innerHTML = '';
+    renderStudyCard();
+  }
+
+  function currentStudyCard() {
+    return ui.study ? (ui.study.queue[ui.study.cursor] || null) : null;
+  }
+
+  function renderStudyCard() {
+    const session = ui.study;
+    if (!session || session.finished) return;
+    const card = currentStudyCard();
+    if (!card) {
+      finishStudy();
+      return;
+    }
+
+    const context = getWordContext(card.wordId);
+    if (!context) {
+      session.cursor += 1;
+      if (session.cursor >= session.queue.length) finishStudy();
+      else renderStudyCard();
+      return;
+    }
+
+    const word = context.word;
+    const isRetry = Boolean(card.retry);
+    session.revealed = false;
+
+    els.studyStage.hidden = false;
+    els.studyStage.scrollTop = 0;
+    els.studySummary.hidden = true;
+    els.studyMode.textContent = isRetry ? '错词巩固' : session.modeLabel;
+    els.studyDay.textContent = `Day ${context.day.day}`;
+    els.studyCount.textContent = isRetry
+      ? `${session.retryDone + 1} / ${session.retryTotal}`
+      : `${session.firstDone + 1} / ${session.firstTotal}`;
+    els.studyProgress.style.width = `${isRetry ? 100 : (session.firstDone / Math.max(1, session.firstTotal)) * 100}%`;
+
+    els.cardTag.textContent = isRetry ? '再记一次' : (session.mode === 'learn' ? '新词' : '到期复习');
+    els.cardTag.className = `pill${isRetry ? ' is-retry' : ''}`;
+    els.cardIndex.textContent = isRetry
+      ? `Day ${context.day.day} · 巩固`
+      : `Day ${context.day.day} · ${session.mode === 'learn' ? '首次学习' : `第 ${word.stage} 阶`}`;
+    els.studyWord.textContent = word.word;
+    els.studyMeaning.textContent = word.meaning;
+    els.meaningBox.hidden = true;
+    els.answerBar.hidden = true;
+    els.revealBtn.hidden = false;
+    els.studyHint.textContent = isRetry
+      ? '刚才没记住，再回想一次，然后重新判断。'
+      : '先在心里回想，再显示释义。如实作答即可。';
+
+    els.flashcard.classList.remove('card-enter');
+    void els.flashcard.offsetWidth;
+    els.flashcard.classList.add('card-enter');
+
+    setTimeout(() => {
+      if (ui.study && ui.study.cursor === session.cursor && !ui.study.revealed) {
+        try { els.revealBtn.focus({ preventScroll: true }); } catch (error) { els.revealBtn.focus(); }
+      }
+    }, 70);
+  }
+
+  function revealCurrent() {
+    const session = ui.study;
+    if (!session || session.finished || session.revealed) return;
+    session.revealed = true;
+    els.meaningBox.hidden = false;
+    els.revealBtn.hidden = true;
+    els.answerBar.hidden = false;
+    els.studyHint.textContent = '根据真实记忆选择，不需要猜。没记住的词会安排明天重来。';
+    try { els.studyStage.focus({ preventScroll: true }); } catch (error) { els.studyStage.focus(); }
+  }
+
+  function answerCurrent(result) {
+    const session = ui.study;
+    if (!session || session.finished || !session.revealed) return;
+    const card = currentStudyCard();
+    if (!card) return;
+
+    const context = getWordContext(card.wordId);
+    if (context) {
+      if (card.retry) {
+        session.retryDone += 1;
+        if (result === 'remember') session.recovered += 1;
+        else session.notRecovered += 1;
+      } else {
+        session.firstDone += 1;
+        if (result === 'remember') {
+          session.firstRemembered += 1;
+          applyRemember(context.word);
+        } else {
+          session.firstForgot += 1;
+          applyForget(context.word);
+          session.queue.push({ wordId: context.word.id, retry: true });
+          session.retryTotal += 1;
+        }
+        markStudyToday();
+      }
+    }
+
+    session.cursor += 1;
+    session.revealed = false;
+    saveState();
+
+    if (session.cursor >= session.queue.length) finishStudy();
+    else renderStudyCard();
+  }
+
+  function finishStudy() {
+    const session = ui.study;
+    if (!session) return;
+    session.finished = true;
+    els.studyStage.hidden = true;
+    els.studySummary.hidden = false;
+    els.studyMode.textContent = '本轮完成';
+    els.studyCount.textContent = '完成';
+    els.studyProgress.style.width = '100%';
+    renderStudySummary();
+    saveState();
+  }
+
+  function renderStudySummary() {
+    const session = ui.study;
+    if (!session) return;
+    const pct = session.firstTotal ? Math.round((session.firstRemembered / session.firstTotal) * 100) : 0;
+    const remainingDue = allWords().filter(isDue).length;
+    const nextDay = getNextUnlearnedDay();
+    const nextDayStats = nextDay ? getDayStats(nextDay) : null;
+
+    let title = '今天记下了。';
+    if (session.firstForgot === 0) title = '一遍就记住了。';
+    else if (pct < 60) title = '重复，是记住的开始。';
+
+    const eyebrow = session.mode === 'review'
+      ? '到期复习完成'
+      : `Day ${session.dayNumber || ''} · 新词完成`.trim();
+    const note = session.firstForgot === 0
+      ? '这些词已按记忆曲线完成本轮安排，不需要今天重复。'
+      : `${session.firstForgot} 个词已安排在明天重新出现${session.recovered ? `，其中 ${session.recovered} 个在本轮巩固中想起` : ''}。`;
+
+    const extra = [];
+    if (remainingDue > 0) {
+      extra.push(`<button class="btn btn-secondary" type="button" data-action="continue-review">继续复习 ${remainingDue} 词</button>`);
+    } else if (session.mode === 'review' && nextDay && nextDayStats) {
+      extra.push(`<button class="btn btn-secondary" type="button" data-action="learn-day" data-day="${nextDay.day}">学习 Day ${nextDay.day}</button>`);
+    }
+
+    els.studySummary.innerHTML = `
+      <div class="summary-card">
+        <p class="overline">${escapeHtml(eyebrow)}</p>
+        <h2>${title}</h2>
+        <div class="summary-score">
+          <div class="summary-ring" style="--pct:${pct}">
+            <div class="summary-ring__inner"><strong>${pct}%</strong><span>一次记住</span></div>
+          </div>
+          <div class="summary-copy">
+            <strong>${session.firstRemembered} / ${session.firstTotal} 个词一次记住</strong>
+            <p>${session.firstForgot ? `还有 ${session.firstForgot} 个需要再见面。` : '这一轮的状态很稳。'}</p>
+          </div>
+        </div>
+        <div class="summary-stats">
+          <div class="summary-stat"><strong>${session.firstRemembered}</strong><span>一次记住</span></div>
+          <div class="summary-stat"><strong>${session.firstForgot}</strong><span>需要加强</span></div>
+          <div class="summary-stat"><strong>${session.recovered}</strong><span>巩固后记住</span></div>
+        </div>
+        <p class="summary-note">${note}</p>
+        <div class="summary-actions">
+          <button class="btn btn-primary" type="button" data-action="close-study">完成，回到今日</button>
+          ${extra.join('')}
+        </div>
+      </div>`;
+
+    setTimeout(() => {
+      const button = els.studySummary.querySelector('[data-action="close-study"]');
+      if (button) {
+        try { button.focus({ preventScroll: true }); } catch (error) { button.focus(); }
+      }
+    }, 70);
+  }
+
+  function closeStudy(force = false) {
+    if (!ui.study) return;
+    if (!force && !ui.study.finished && ui.study.firstDone > 0) {
+      if (!window.confirm('本次背诵还没完成，确定退出吗？已作答的单词会保存。')) return;
+    }
+    ui.study = null;
+    els.studyLayer.hidden = true;
+    els.studySummary.innerHTML = '';
+    ui.tab = 'today';
+    renderApp();
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Events                                                             */
+  /* ------------------------------------------------------------------ */
+
+  document.addEventListener('click', (event) => {
+    const tabTrigger = event.target.closest('[data-tab]');
+    if (tabTrigger) {
+      switchTab(tabTrigger.dataset.tab);
+      return;
+    }
+
+    const trigger = event.target.closest('[data-action]');
+    if (!trigger) return;
+    const action = trigger.dataset.action;
+
+    switch (action) {
+      case 'open-import':
+        openImportSheet();
+        break;
+      case 'open-paste':
+        openPasteSheet();
+        break;
+      case 'close-sheet':
+        closeSheet();
+        break;
+      case 'choose-json':
+        chooseJson();
+        break;
+      case 'paste-mode':
+        ui.pasteMode = true;
+        ui.importError = '';
+        ui.pendingImport = null;
+        renderSheet();
+        break;
+      case 'back-to-file':
+        ui.pasteMode = false;
+        ui.pendingImport = null;
+        ui.importError = '';
+        renderSheet();
+        break;
+      case 'parse-paste': {
+        try {
+          const pkg = parseJsonText(ui.pasteDraft);
+          ui.pendingImport = pkg;
+          ui.importError = '';
+          renderSheet();
+        } catch (error) {
+          ui.importError = error.message || 'JSON 无法识别。';
+          renderSheet();
+        }
+        break;
+      }
+      case 'reset-import':
+        resetImport();
+        break;
+      case 'commit-import':
+        commitImport();
+        break;
+      case 'open-day':
+        openSheet('day', { day: Number(trigger.dataset.day) });
+        break;
+      case 'study-day':
+      case 'learn-day': {
+        const day = Number(trigger.dataset.day);
+        if (Number.isInteger(day)) {
+          if (ui.study) closeStudy(true);
+          if (ui.sheet) closeSheet();
+          startStudy('learn', { day });
+        }
+        break;
+      }
+      case 'review-day': {
+        const day = Number(trigger.dataset.day);
+        if (Number.isInteger(day)) {
+          if (ui.study) closeStudy(true);
+          if (ui.sheet) closeSheet();
+          startStudy('review', { day });
+        }
+        break;
+      }
+      case 'review-all':
+        if (ui.study) closeStudy(true);
+        startStudy('review');
+        break;
+      case 'reveal':
+        revealCurrent();
+        break;
+      case 'answer':
+        answerCurrent(trigger.dataset.result === 'remember' ? 'remember' : 'forgot');
+        break;
+      case 'exit-study':
+        closeStudy();
+        break;
+      case 'close-study':
+        closeStudy(true);
+        break;
+      case 'continue-review':
+        closeStudy(true);
+        startStudy('review');
+        break;
+      case 'export-phone':
+        exportPhoneData();
+        break;
+      case 'restore-phone':
+        ui.filePurpose = 'restore';
+        els.fileInput.value = '';
+        els.fileInput.click();
+        break;
+      case 'clear-data':
+        clearAllData();
+        break;
+      default:
+        break;
+    }
+  });
+
+  els.sheetLayer.addEventListener('click', (event) => {
+    if (event.target === els.sheetLayer) closeSheet();
+  });
+
+  document.addEventListener('input', (event) => {
+    if (event.target && event.target.id === 'pasteInput') {
+      ui.pasteDraft = event.target.value;
+    }
+  });
+
+  els.fileInput.addEventListener('change', () => {
+    const file = els.fileInput.files && els.fileInput.files[0];
+    els.fileInput.value = '';
+    if (!file) return;
+    if (ui.filePurpose === 'restore') {
+      restorePhoneFile(file);
+    } else {
+      readMergeFile(file);
+    }
+    ui.filePurpose = 'merge';
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      if (!els.sheetLayer.hidden) {
+        event.preventDefault();
+        closeSheet();
+        return;
+      }
+      if (!els.studyLayer.hidden) {
+        event.preventDefault();
+        closeStudy();
+        return;
+      }
+    }
+
+    if (!els.sheetLayer.hidden) {
+      if (event.key === 'Tab') trapFocus(els.sheetContent, event);
+      return;
+    }
+
+    if (!els.studyLayer.hidden && event.key === 'Tab') {
+      trapFocus(els.studyLayer, event);
+      return;
+    }
+
+    if (els.studyLayer.hidden || !ui.study || ui.study.finished) return;
+    if (event.metaKey || event.ctrlKey || event.altKey) return;
+
+    if (event.code === 'Space' && !ui.study.revealed) {
+      event.preventDefault();
+      revealCurrent();
+      return;
+    }
+
+    if (ui.study.revealed && (event.key === '1' || event.key === '2')) {
+      event.preventDefault();
+      answerCurrent(event.key === '1' ? 'remember' : 'forgot');
+    }
+  });
+
+  function trapFocus(container, event) {
+    if (!container) return;
+    const selectors = 'button:not([disabled]), [href], input:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
+    const focusable = $$(selectors, container).filter((element) => element.offsetParent !== null);
+    if (!focusable.length) return;
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
+  }
+
+  init();
+})();
+
+  </script>
+</body>
+</html>
